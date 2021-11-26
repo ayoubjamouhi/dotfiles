@@ -1,0 +1,124 @@
+;; ======================================= POLYBAR CONFIG ====================================
+[colors]
+background = #2E3440
+foreground = #e6e6e6
+accent     = #88C0D0
+black       = ${xrdb:Polybar.color0}
+red         = ${xrdb:Polybar.color1}
+green       = ${xrdb:Polybar.color2}
+yellow      = ${xrdb:Polybar.color3}
+blue        = ${xrdb:Polybar.color4}
+magenta     = ${xrdb:Polybar.color5}
+cyan        = ${xrdb:Polybar.color6}
+white       = ${xrdb:Polybar.color7}
+
+;; ===================== BARS ========================
+[bar/main]
+bottom = false
+offset-y = 10
+height = 30
+radius = 12
+fixed-center = true
+wm-restack = bspwm
+override-redirect = true
+border = 0
+
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+font-0 = termsyn:size=14;3
+font-1 = Roboto Mono NerdFont:size=11:antialias=true;3
+
+module-margin-left = 2
+module-margin-right = 2
+
+[bar/three]
+inherit = bar/main
+width = 13%
+offset-x = 16
+modules-center = time
+
+[bar/one]
+width = 11%
+offset-x = 281
+modules-center = bspwm
+
+[bar/two]
+inherit = bar/main
+width = 24.2%
+offset-x = 1439
+modules-center =  memory cpu eth temperature pulseaudio xkeyboard date battery powermenu
+
+
+;; =================== BSPWM =====================
+[module/bspwm]
+type = internal/bspwm
+
+pin-workspaces = true
+enable-click = true
+enable-scroll = true
+
+format = <label-state>
+
+format-background = ${colors.background}
+format-foreground = ${colors.foreground}
+
+label-monitor = %name%
+
+label-focused = 
+label-focused-padding = 2
+label-focused-foreground = ${colors.accent}
+label-focused-background = ${colors.background}
+
+label-occupied = 
+label-occupied-padding = 2
+label-occupied-foreground = ${colors.foreground}
+label-occupied-background = ${colors.background}
+
+label-urgent = 
+label-urgent-padding = 2
+label-urgent-foreground = ${colors.red}
+
+label-empty = 
+label-empty-padding = 2
+label-empty-foreground = ${colors.black}
+label-empty-background = ${colors.background}
+
+;; =================== PULSEAUDIO =====================
+
+[module/pulseaudio]
+type = internal/pulseaudio
+
+format-volume = "<ramp-volume>  <label-volume>"
+
+label-volume =  "%percentage%%"
+label-volume-background = ${colors.background}
+label-volume-foreground = ${colors.foreground}
+
+label-muted = MUTED
+label-muted-foreground = ${colors.red}
+label-muted-background = ${colors.background}
+
+ramp-volume-0 =  
+ramp-volume-1 =  
+ramp-volume-2 =  
+ramp-volume-3 =  
+
+ramp-volume-foreground = ${colors.accent}
+ramp-volume-background = ${colors.background}
+
+;; =================== TIME =====================
+
+[module/time]
+type = internal/date
+interval = 1
+date = %a, %d %B
+time = %I:%M %
+format-prefix = 
+format-prefix-foreground = ${colors.accent}
+format = <label>
+label = "  %date% | %time% "
+format-background = ${colors.background}
+format-foreground = ${colors.foreground}
+
+;; ================= EOF =======================

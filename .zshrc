@@ -124,6 +124,7 @@ alias webadasoft="cd /var/www/web.adasoft.com && tmux new -s web-adasoft"
 alias apiadasoft="cd /var/www/api.adasoft.com && tmux new -s api-adasoft"
 alias rgnext="cd /var/www/readingarden/readingardeen-frontend && tmux new -s rg-frontend"
 alias rgprisma="cd /var/www/readingarden/readingardeen-backend && tmux new -s rg-backend"
+alias elearning="cd /var/www/elearning && tmux new -s elearning "
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
