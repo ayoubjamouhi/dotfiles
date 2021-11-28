@@ -5,7 +5,7 @@ super + Return
 super + d
 	rofi -modi drun -show drun -display-drun "App      s : " -line-padding 4 \
     -columns 1 -hide-scrollbar \
-    -show-icons -drun-icon-theme "Arc-X-D" -font "Not      o Sans Regular 11"
+    -show-icons -drun-icon-theme "Arc-X-D" -font "Noto Sans Regular 11"
 super + alt + t
 	tuxi "$(echo "" | dmenu -p 'Ask Tuxi:')" | espeak -s 140
 #Firefox
@@ -13,7 +13,7 @@ super + c
 	google-chrome
 #Screen record
 super + v 
-    /home/gabriel/stuff/scr.sh
+  org.gnome.Nautilus
 super + shift + c
     killall ffmpeg
 #Nautilus
