@@ -28,7 +28,7 @@ Plug 'arnaud-lb/vim-php-namespace'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'luochen1990/rainbow'
-Plug 'phpactor/phpactor'
+Plug 'phpactor/phpactor', {'for': 'php', 'do': 'composer install'}
 "Plug 'dense-analysis/ale'
 " Initialize plugin system
 call plug#end()

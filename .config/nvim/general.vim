@@ -58,3 +58,12 @@ set statusline+=\ %r
 set statusline+=%#IncSearch#
 set statusline+=\ %l/%L
 set statusline+=\ [%c]
+
+" c++
+command! -nargs=0 CAR call TermWrapper(printf('g++ -std=c++11 %s && ./a.out', expand('%')))
+
+command! -nargs=1 CompileAndRunWithFile call TermWrapper(printf('g++ -std=c++17 %s && ./a.out < %s', expand('%'), <args>))
+
+autocmd FileType cpp nnoremap <Buffer><F5>fw CAR<CR>
+
+let g:vim_json_syntax_conceal = 0
