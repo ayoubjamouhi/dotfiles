@@ -1,0 +1,4 @@
+12/1/2021, 10:19:11 AM [3] (pid: 12453) graphql-language-service-usage-logs: {"type":"usage","messageType":"initialize"}
+12/1/2021, 10:20:20 AM [1] (pid: 12453) graphql-language-service-usage-logs: ConfigNotFoundError2: GraphQL Config file is not available in the provided config directory: /var/www/lilya.com
+Please check the config directory.
+[Info  - 10:45:21 AM] The graphql server has stopped running

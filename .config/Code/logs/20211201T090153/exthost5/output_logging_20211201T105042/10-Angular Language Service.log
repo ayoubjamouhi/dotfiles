@@ -1,0 +1,36 @@
+[Info  - 10:50:43 AM] Angular language server process ID: 16797
+[Info  - 10:50:43 AM] Using typescript/lib/tsserverlibrary v4.4.3 from /home/dotnet/.vscode/extensions/angular.ng-template-13.0.0/node_modules/typescript/lib/tsserverlibrary.js
+[Info  - 10:50:43 AM] Using @angular/language-service v12.2.12 from /home/dotnet/.vscode/extensions/angular.ng-template-13.0.0/v12_language_service/node_modules/@angular/language-service/index.js
+[Info  - 10:50:43 AM] Logging is turned off. To enable, run command 'Open Angular server log'.
+[Info  - 10:50:45 AM] Enabling View Engine language service for /var/www/web.adasoft.com/tsconfig.json.
+[Error - 10:51:55 AM] No config file for /var/www/web.adasoft.com/src/app/templates/reseller/users.component.html
+[Error - 10:51:56 AM] No config file for /var/www/web.adasoft.com/src/app/templates/reseller/users.component.html
+[Error - 10:52:02 AM] No config file for /var/www/web.adasoft.com/src/app/templates/reseller/users.component.html
+[Error - 10:52:07 AM] No config file for /var/www/web.adasoft.com/src/app/templates/reseller/users.component.html
+[Error - 10:52:07 AM] No config file for /var/www/web.adasoft.com/src/app/templates/reseller/reseller.component.html
+[Error - 10:55:22 AM] No config file for /var/www/web.adasoft.com/src/app/templates/reseller/users.component.html
+[Error - 10:55:22 AM] No config file for /var/www/web.adasoft.com/src/app/templates/reseller/reseller.component.html
+[Error - 10:55:44 AM] No config file for /var/www/web.adasoft.com/src/app/modules/widgetsss/widgets.component.html
+[Error - 10:56:09 AM] No config file for /var/www/web.adasoft.com/src/app/templates/reseller/users.component.html
+[Error - 10:56:20 AM] No config file for /var/www/web.adasoft.com/src/app/templates/reseller/users.component.html
+[Error - 10:57:14 AM] No config file for /var/www/web.adasoft.com/src/app/templates/reseller/users.component.html
+[Error - 10:57:14 AM] No config file for /var/www/web.adasoft.com/src/app/modules/widgetsss/widgets.component.html
+[Error - 10:57:14 AM] No config file for /var/www/web.adasoft.com/src/app/templates/reseller/reseller.component.html
+[Error - 10:57:15 AM] No config file for /var/www/web.adasoft.com/src/app/templates/reseller/users.component.html
+[Error - 10:57:15 AM] No config file for /var/www/web.adasoft.com/src/app/modules/widgetsss/widgets.component.html
+[Error - 10:57:15 AM] No config file for /var/www/web.adasoft.com/src/app/templates/reseller/reseller.component.html
+[Error - 10:57:16 AM] No config file for /var/www/web.adasoft.com/src/app/templates/reseller/users.component.html
+[Error - 10:57:16 AM] No config file for /var/www/web.adasoft.com/src/app/modules/widgetsss/widgets.component.html
+[Error - 10:57:16 AM] No config file for /var/www/web.adasoft.com/src/app/templates/reseller/reseller.component.html
+[Error - 10:57:45 AM] No config file for /var/www/web.adasoft.com/src/app/templates/reseller/users.component.html
+[Error - 10:57:45 AM] No config file for /var/www/web.adasoft.com/src/app/modules/widgetsss/widgets.component.html
+[Error - 10:57:45 AM] No config file for /var/www/web.adasoft.com/src/app/templates/reseller/reseller.component.html
+[Error - 10:57:47 AM] No config file for /var/www/web.adasoft.com/src/app/templates/reseller/users.component.html
+[Error - 10:57:47 AM] No config file for /var/www/web.adasoft.com/src/app/modules/widgetsss/widgets.component.html
+[Error - 10:57:47 AM] No config file for /var/www/web.adasoft.com/src/app/templates/reseller/reseller.component.html
+[Error - 10:58:49 AM] No config file for /var/www/web.adasoft.com/src/app/templates/reseller/users.component.html
+[Error - 10:58:49 AM] No config file for /var/www/web.adasoft.com/src/app/modules/widgetsss/widgets.component.html
+[Error - 10:58:49 AM] No config file for /var/www/web.adasoft.com/src/app/templates/reseller/reseller.component.html
+[Error - 10:58:51 AM] No config file for /var/www/web.adasoft.com/src/app/templates/reseller/users.component.html
+[Error - 10:58:51 AM] No config file for /var/www/web.adasoft.com/src/app/modules/widgetsss/widgets.component.html
+[Error - 10:58:51 AM] No config file for /var/www/web.adasoft.com/src/app/templates/reseller/reseller.component.html

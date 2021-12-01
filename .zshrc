@@ -120,11 +120,14 @@ alias s="vim ~/.config/sxhkd/sxhkdrc"
 alias p="vim ~/.config/polybar/config"
 alias z="vim ~/.zshrc"
 alias ni="vim ~/.config/nvim/init.vim"
+alias softmyvirtual="cd /var/www/soft1.myvirtualtours.io && tmux new -s soft-myvirtualtours"
 alias webadasoft="cd /var/www/web.adasoft.com && tmux new -s web-adasoft"
 alias apiadasoft="cd /var/www/api.adasoft.com && tmux new -s api-adasoft"
 alias rgnext="cd /var/www/readingarden/readingardeen-frontend && tmux new -s rg-frontend"
 alias rgprisma="cd /var/www/readingarden/readingardeen-backend && tmux new -s rg-backend"
 alias elearning="cd /var/www/elearning && tmux new -s elearning "
+alias rwfront="cd ~/Code/Dev/rewriter.com/frontend && tmux new -s rewriter-frontend"
+alias rwbackend="cd ~/Code/Dev/rewriter.com/backend && tmux new -s rewriter-backend"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

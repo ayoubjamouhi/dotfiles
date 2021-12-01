@@ -1,0 +1,11 @@
+{
+	"pf": {
+		"prefix": "pf",
+		"body": [
+			"public function $1($2) {",
+			"    $3",
+			"}"
+		],
+		"description": "pf"
+	}
+}

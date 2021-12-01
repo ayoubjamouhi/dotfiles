@@ -1,0 +1,70 @@
+[2021-12-01 10:08:36.007] [exthost] [info] extension host started
+[2021-12-01 10:08:36.007] [exthost] [info] Skipping acquiring lock for /home/dotnet/.config/Code/User/workspaceStorage/37642138a0c1850df6bd26128877d653.
+[2021-12-01 10:08:36.093] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2021-12-01 10:08:36.093] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js
+[2021-12-01 10:08:36.109] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-12-01 10:08:36.109] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2021-12-01 10:08:36.112] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-12-01 10:08:36.112] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/git/dist/main
+[2021-12-01 10:08:36.131] [exthost] [info] ExtensionService#_doActivateExtension Atishay-Jain.All-Autocomplete, startup: true, activationEvent: '*'
+[2021-12-01 10:08:36.131] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/atishay-jain.all-autocomplete-0.0.23/dist/extension
+[2021-12-01 10:08:36.132] [exthost] [info] ExtensionService#_doActivateExtension CoenraadS.bracket-pair-colorizer, startup: true, activationEvent: '*'
+[2021-12-01 10:08:36.132] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/coenraads.bracket-pair-colorizer-1.0.61/out/src/extension
+[2021-12-01 10:08:36.143] [exthost] [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: true, activationEvent: '*'
+[2021-12-01 10:08:36.143] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/editorconfig.editorconfig-0.16.4/out/editorConfigMain.js
+[2021-12-01 10:08:36.160] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag, startup: true, activationEvent: '*'
+[2021-12-01 10:08:36.160] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/formulahendry.auto-close-tag-0.5.13/out/src/extension
+[2021-12-01 10:08:36.162] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+[2021-12-01 10:08:36.162] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/formulahendry.auto-rename-tag-0.1.9/packages/extension/dist/extensionMain.js
+[2021-12-01 10:08:36.176] [exthost] [info] ExtensionService#_doActivateExtension GraphQL.vscode-graphql, startup: true, activationEvent: '*'
+[2021-12-01 10:08:36.176] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/graphql.vscode-graphql-0.3.27/out/extension
+[2021-12-01 10:08:36.246] [exthost] [info] ExtensionService#_doActivateExtension HookyQR.beautify, startup: true, activationEvent: '*'
+[2021-12-01 10:08:36.247] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/hookyqr.beautify-1.5.0/extension
+[2021-12-01 10:08:36.268] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.sublime-keybindings, startup: true, activationEvent: '*'
+[2021-12-01 10:08:36.268] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/ms-vscode.sublime-keybindings-4.0.10/dist/extension.js
+[2021-12-01 10:08:36.269] [exthost] [info] ExtensionService#_doActivateExtension naumovs.color-highlight, startup: true, activationEvent: '*'
+[2021-12-01 10:08:36.269] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/naumovs.color-highlight-2.5.0/dist/extension-node.js
+[2021-12-01 10:08:36.276] [exthost] [info] ExtensionService#_doActivateExtension stef-k.laravel-goto-controller, startup: true, activationEvent: '*'
+[2021-12-01 10:08:36.276] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/stef-k.laravel-goto-controller-0.0.15/out/extension
+[2021-12-01 10:08:36.280] [exthost] [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: true, activationEvent: '*'
+[2021-12-01 10:08:36.280] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/vscodevim.vim-1.21.10/out/extension
+[2021-12-01 10:08:36.338] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+[2021-12-01 10:08:36.338] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/npm/dist/npmMain
+[2021-12-01 10:08:36.653] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug, startup: false, activationEvent: 'onCommand:extension.js-debug.clearAutoAttachVariables'
+[2021-12-01 10:08:36.653] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/ms-vscode.js-debug/src/extension.js
+[2021-12-01 10:08:36.782] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+[2021-12-01 10:08:36.783] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github/dist/extension.js
+[2021-12-01 10:08:36.848] [exthost] [info] eager extensions activated
+[2021-12-01 10:08:36.886] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-01 10:08:36.886] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain
+[2021-12-01 10:08:36.891] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-01 10:08:36.891] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2021-12-01 10:08:36.898] [exthost] [info] ExtensionService#_doActivateExtension bradlc.vscode-tailwindcss, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-01 10:08:36.898] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/bradlc.vscode-tailwindcss-0.7.2/dist/extension/index.js
+[2021-12-01 10:08:36.916] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-01 10:08:36.916] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/dbaeumer.vscode-eslint-2.2.2/client/out/extension
+[2021-12-01 10:08:36.924] [exthost] [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-01 10:08:36.925] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/eamodio.gitlens-11.6.1/dist/gitlens
+[2021-12-01 10:08:36.955] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-01 10:08:36.955] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/esbenp.prettier-vscode-9.0.0/dist/extension
+[2021-12-01 10:08:37.218] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2021-12-01 10:08:37.218] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github-authentication/dist/extension.js
+[2021-12-01 10:08:59.007] [exthost] [info] ExtensionService#_doActivateExtension IronGeek.vscode-env, startup: false, activationEvent: 'onLanguage:env'
+[2021-12-01 10:08:59.007] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/irongeek.vscode-env-0.1.0/out/extension.js
+[2021-12-01 10:16:05.441] [exthost] [error] Error: spawn git ENOENT
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:269:19)
+    at onErrorNT (internal/child_process.js:465:16)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+[2021-12-01 10:19:11.808] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-12-01 10:19:12.522] [exthost] [error] TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 't'
+    |     property '_readableState' -> object with constructor 'C'
+    |     property 'pipes' -> object with constructor 'Array'
+    |     index 0 -> object with constructor 't.ConsoleForElectron'
+    --- property 'parent' closes the circle
+    at JSON.stringify (<anonymous>)
+    at async (/home/dotnet/.vscode/extensions/vscodevim.vim-1.21.10/src/register/register.ts:357:16)
+    at Object.e.deactivate (/home/dotnet/.vscode/extensions/vscodevim.vim-1.21.10/extension.ts:36:8)
+    at async Promise.all (index 24)
+    at w.deactivateAll (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:10017)
+[2021-12-01 10:19:12.846] [exthost] [info] exiting with code 0

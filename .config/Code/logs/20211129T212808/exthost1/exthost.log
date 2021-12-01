@@ -1,0 +1,150 @@
+[2021-11-29 21:28:11.490] [exthost] [info] extension host started
+[2021-11-29 21:28:11.490] [exthost] [info] Skipping acquiring lock for /home/dotnet/.config/Code/User/workspaceStorage/6475d6b31512b3c55b24e486862cf03f.
+[2021-11-29 21:28:12.166] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2021-11-29 21:28:12.166] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js
+[2021-11-29 21:28:12.177] [exthost] [info] ExtensionService#_doActivateExtension octref.vetur, startup: false, activationEvent: 'onLanguage:vue'
+[2021-11-29 21:28:12.182] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/octref.vetur-0.35.0/dist/vueMain.js
+[2021-11-29 21:28:12.279] [exthost] [info] ExtensionService#_doActivateExtension wix.vscode-import-cost, startup: false, activationEvent: 'onLanguage:vue'
+[2021-11-29 21:28:12.281] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/wix.vscode-import-cost-2.15.0/out/extension.js
+[2021-11-29 21:28:13.002] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-11-29 21:28:13.002] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2021-11-29 21:28:13.005] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-11-29 21:28:13.005] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/git/dist/main
+[2021-11-29 21:28:13.035] [exthost] [info] ExtensionService#_doActivateExtension asvetliakov.vscode-neovim, startup: true, activationEvent: '*'
+[2021-11-29 21:28:13.035] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/asvetliakov.vscode-neovim-0.0.82/dist/extension.js
+[2021-11-29 21:28:13.068] [exthost] [info] ExtensionService#_doActivateExtension Atishay-Jain.All-Autocomplete, startup: true, activationEvent: '*'
+[2021-11-29 21:28:13.068] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/atishay-jain.all-autocomplete-0.0.23/dist/extension
+[2021-11-29 21:28:13.075] [exthost] [info] ExtensionService#_doActivateExtension CoenraadS.bracket-pair-colorizer, startup: true, activationEvent: '*'
+[2021-11-29 21:28:13.075] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/coenraads.bracket-pair-colorizer-1.0.61/out/src/extension
+[2021-11-29 21:28:13.131] [exthost] [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: true, activationEvent: '*'
+[2021-11-29 21:28:13.131] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/editorconfig.editorconfig-0.16.4/out/editorConfigMain.js
+[2021-11-29 21:28:13.175] [exthost] [info] ExtensionService#_doActivateExtension Equinusocio.vsc-material-theme, startup: true, activationEvent: '*'
+[2021-11-29 21:28:13.176] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/equinusocio.vsc-material-theme-33.2.2/build/material.theme.config
+[2021-11-29 21:28:13.191] [exthost] [info] ExtensionService#_doActivateExtension equinusocio.vsc-material-theme-icons, startup: true, activationEvent: '*'
+[2021-11-29 21:28:13.191] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/equinusocio.vsc-material-theme-icons-2.2.1/out/src/extension
+[2021-11-29 21:28:13.274] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag, startup: true, activationEvent: '*'
+[2021-11-29 21:28:13.274] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/formulahendry.auto-close-tag-0.5.13/out/src/extension
+[2021-11-29 21:28:13.281] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+[2021-11-29 21:28:13.282] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/formulahendry.auto-rename-tag-0.1.9/packages/extension/dist/extensionMain.js
+[2021-11-29 21:28:13.301] [exthost] [info] ExtensionService#_doActivateExtension mohamedbenhida.laravel-intellisense, startup: true, activationEvent: '*'
+[2021-11-29 21:28:13.301] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/mohamedbenhida.laravel-intellisense-0.2.0/dist/extension.js
+[2021-11-29 21:28:13.306] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.sublime-keybindings, startup: true, activationEvent: '*'
+[2021-11-29 21:28:13.306] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/ms-vscode.sublime-keybindings-4.0.10/dist/extension.js
+[2021-11-29 21:28:13.308] [exthost] [info] ExtensionService#_doActivateExtension naumovs.color-highlight, startup: true, activationEvent: '*'
+[2021-11-29 21:28:13.308] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/naumovs.color-highlight-2.5.0/dist/extension-node.js
+[2021-11-29 21:28:13.320] [exthost] [info] ExtensionService#_doActivateExtension stef-k.laravel-goto-controller, startup: true, activationEvent: '*'
+[2021-11-29 21:28:13.320] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/stef-k.laravel-goto-controller-0.0.15/out/extension
+[2021-11-29 21:28:13.325] [exthost] [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: true, activationEvent: '*'
+[2021-11-29 21:28:13.325] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/vscodevim.vim-1.21.10/out/extension
+[2021-11-29 21:28:13.413] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+[2021-11-29 21:28:13.414] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/npm/dist/npmMain
+[2021-11-29 21:28:18.082] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug, startup: false, activationEvent: 'onCommand:extension.js-debug.clearAutoAttachVariables'
+[2021-11-29 21:28:18.083] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/ms-vscode.js-debug/src/extension.js
+[2021-11-29 21:28:18.345] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+[2021-11-29 21:28:18.345] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github/dist/extension.js
+[2021-11-29 21:28:18.789] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2021-11-29 21:28:18.789] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github-authentication/dist/extension.js
+[2021-11-29 21:28:19.186] [exthost] [info] eager extensions activated
+[2021-11-29 21:28:19.224] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2021-11-29 21:28:19.224] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain
+[2021-11-29 21:28:19.229] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-11-29 21:28:19.230] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2021-11-29 21:28:19.232] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+[2021-11-29 21:28:19.232] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/dbaeumer.vscode-eslint-2.2.2/client/out/extension
+[2021-11-29 21:28:19.246] [exthost] [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+[2021-11-29 21:28:19.247] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/eamodio.gitlens-11.6.1/dist/gitlens
+[2021-11-29 21:28:19.373] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+[2021-11-29 21:28:19.373] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/esbenp.prettier-vscode-9.0.0/dist/extension
+[2021-11-29 21:28:26.739] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2021-11-29 21:28:26.739] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/configuration-editing/dist/configurationEditingMain
+[2021-11-29 21:28:26.749] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2021-11-29 21:28:26.749] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain
+[2021-11-29 21:28:26.768] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2021-11-29 21:28:26.768] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/typescript-language-features/dist/extension
+[2021-11-29 21:28:36.117] [exthost] [warning] TextEditor is closed/disposed
+[2021-11-29 21:28:36.234] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+[2021-11-29 21:28:36.234] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/extension-editing/dist/extensionEditingMain
+[2021-11-29 21:28:36.253] [exthost] [info] ExtensionService#_doActivateExtension eg2.vscode-npm-script, startup: false, activationEvent: 'onLanguage:json'
+[2021-11-29 21:28:36.253] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/eg2.vscode-npm-script-0.3.23/dist/extension
+[2021-11-29 21:29:41.126] [exthost] [warning] TextEditor is closed/disposed
+[2021-11-29 21:29:44.439] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-11-29 21:29:45.457] [exthost] [info] exiting with code 0
+[2021-11-29 21:29:46.389] [exthost] [info] extension host started
+[2021-11-29 21:29:46.389] [exthost] [info] Skipping acquiring lock for /home/dotnet/.config/Code/User/workspaceStorage/6475d6b31512b3c55b24e486862cf03f.
+[2021-11-29 21:29:47.025] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2021-11-29 21:29:47.025] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js
+[2021-11-29 21:29:47.036] [exthost] [info] ExtensionService#_doActivateExtension octref.vetur, startup: false, activationEvent: 'onLanguage:vue'
+[2021-11-29 21:29:47.036] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/octref.vetur-0.35.0/dist/vueMain.js
+[2021-11-29 21:29:47.071] [exthost] [info] ExtensionService#_doActivateExtension wix.vscode-import-cost, startup: false, activationEvent: 'onLanguage:vue'
+[2021-11-29 21:29:47.071] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/wix.vscode-import-cost-2.15.0/out/extension.js
+[2021-11-29 21:29:47.322] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-11-29 21:29:47.322] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2021-11-29 21:29:47.324] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-11-29 21:29:47.324] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/git/dist/main
+[2021-11-29 21:29:47.340] [exthost] [info] ExtensionService#_doActivateExtension Atishay-Jain.All-Autocomplete, startup: true, activationEvent: '*'
+[2021-11-29 21:29:47.340] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/atishay-jain.all-autocomplete-0.0.23/dist/extension
+[2021-11-29 21:29:47.342] [exthost] [info] ExtensionService#_doActivateExtension CoenraadS.bracket-pair-colorizer, startup: true, activationEvent: '*'
+[2021-11-29 21:29:47.342] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/coenraads.bracket-pair-colorizer-1.0.61/out/src/extension
+[2021-11-29 21:29:47.352] [exthost] [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: true, activationEvent: '*'
+[2021-11-29 21:29:47.352] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/editorconfig.editorconfig-0.16.4/out/editorConfigMain.js
+[2021-11-29 21:29:47.363] [exthost] [info] ExtensionService#_doActivateExtension Equinusocio.vsc-material-theme, startup: true, activationEvent: '*'
+[2021-11-29 21:29:47.363] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/equinusocio.vsc-material-theme-33.2.2/build/material.theme.config
+[2021-11-29 21:29:47.371] [exthost] [info] ExtensionService#_doActivateExtension equinusocio.vsc-material-theme-icons, startup: true, activationEvent: '*'
+[2021-11-29 21:29:47.371] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/equinusocio.vsc-material-theme-icons-2.2.1/out/src/extension
+[2021-11-29 21:29:47.398] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag, startup: true, activationEvent: '*'
+[2021-11-29 21:29:47.398] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/formulahendry.auto-close-tag-0.5.13/out/src/extension
+[2021-11-29 21:29:47.400] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+[2021-11-29 21:29:47.400] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/formulahendry.auto-rename-tag-0.1.9/packages/extension/dist/extensionMain.js
+[2021-11-29 21:29:47.406] [exthost] [info] ExtensionService#_doActivateExtension mohamedbenhida.laravel-intellisense, startup: true, activationEvent: '*'
+[2021-11-29 21:29:47.406] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/mohamedbenhida.laravel-intellisense-0.2.0/dist/extension.js
+[2021-11-29 21:29:47.408] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.sublime-keybindings, startup: true, activationEvent: '*'
+[2021-11-29 21:29:47.408] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/ms-vscode.sublime-keybindings-4.0.10/dist/extension.js
+[2021-11-29 21:29:47.410] [exthost] [info] ExtensionService#_doActivateExtension naumovs.color-highlight, startup: true, activationEvent: '*'
+[2021-11-29 21:29:47.410] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/naumovs.color-highlight-2.5.0/dist/extension-node.js
+[2021-11-29 21:29:47.413] [exthost] [info] ExtensionService#_doActivateExtension stef-k.laravel-goto-controller, startup: true, activationEvent: '*'
+[2021-11-29 21:29:47.413] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/stef-k.laravel-goto-controller-0.0.15/out/extension
+[2021-11-29 21:29:47.415] [exthost] [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: true, activationEvent: '*'
+[2021-11-29 21:29:47.415] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/vscodevim.vim-1.21.10/out/extension
+[2021-11-29 21:29:47.465] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+[2021-11-29 21:29:47.465] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/npm/dist/npmMain
+[2021-11-29 21:29:48.740] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug, startup: false, activationEvent: 'onCommand:extension.js-debug.clearAutoAttachVariables'
+[2021-11-29 21:29:48.740] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/ms-vscode.js-debug/src/extension.js
+[2021-11-29 21:29:49.017] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+[2021-11-29 21:29:49.017] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github/dist/extension.js
+[2021-11-29 21:29:49.207] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2021-11-29 21:29:49.207] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github-authentication/dist/extension.js
+[2021-11-29 21:29:49.239] [exthost] [info] eager extensions activated
+[2021-11-29 21:29:49.264] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2021-11-29 21:29:49.264] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain
+[2021-11-29 21:29:49.274] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-11-29 21:29:49.274] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2021-11-29 21:29:49.276] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+[2021-11-29 21:29:49.276] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/dbaeumer.vscode-eslint-2.2.2/client/out/extension
+[2021-11-29 21:29:49.294] [exthost] [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+[2021-11-29 21:29:49.294] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/eamodio.gitlens-11.6.1/dist/gitlens
+[2021-11-29 21:29:49.359] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+[2021-11-29 21:29:49.359] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/esbenp.prettier-vscode-9.0.0/dist/extension
+[2021-11-29 21:29:58.452] [exthost] [warning] TextEditor is closed/disposed
+[2021-11-29 21:29:58.513] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:json'
+[2021-11-29 21:29:58.513] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/configuration-editing/dist/configurationEditingMain
+[2021-11-29 21:29:58.515] [exthost] [info] ExtensionService#_doActivateExtension vscode.extension-editing, startup: false, activationEvent: 'onLanguage:json'
+[2021-11-29 21:29:58.515] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/extension-editing/dist/extensionEditingMain
+[2021-11-29 21:29:58.518] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:json'
+[2021-11-29 21:29:58.519] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain
+[2021-11-29 21:29:58.528] [exthost] [info] ExtensionService#_doActivateExtension eg2.vscode-npm-script, startup: false, activationEvent: 'onLanguage:json'
+[2021-11-29 21:29:58.528] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/eg2.vscode-npm-script-0.3.23/dist/extension
+[2021-11-29 21:30:03.338] [exthost] [info] ExtensionService#_doActivateExtension bradlc.vscode-tailwindcss, startup: false, activationEvent: 'onStartupFinished'
+[2021-11-29 21:30:03.338] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/bradlc.vscode-tailwindcss-0.7.2/dist/extension/index.js
+[2021-11-29 21:30:11.610] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+[2021-11-29 21:30:11.610] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/typescript-language-features/dist/extension
+[2021-11-29 21:30:11.618] [exthost] [info] ExtensionService#_doActivateExtension christian-kohler.npm-intellisense, startup: false, activationEvent: 'onLanguage:javascript'
+[2021-11-29 21:30:11.618] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/christian-kohler.npm-intellisense-1.4.0/out/src/extension
+[2021-11-29 21:30:11.653] [exthost] [info] ExtensionService#_doActivateExtension Angular.ng-template, startup: false, activationEvent: 'onLanguage:typescript'
+[2021-11-29 21:30:11.653] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/angular.ng-template-13.0.0/index
+[2021-11-29 21:30:11.827] [exthost] [info] ExtensionService#_doActivateExtension steoates.autoimport, startup: false, activationEvent: 'onLanguage:typescript'
+[2021-11-29 21:30:11.827] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/steoates.autoimport-1.5.4/out/src/extension
+[2021-11-29 21:30:49.588] [exthost] [info] ExtensionService#_doActivateExtension redhat.vscode-yaml, startup: false, activationEvent: 'onLanguage:yaml'
+[2021-11-29 21:30:49.589] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/redhat.vscode-yaml-1.2.1/dist/extension
+[2021-11-29 21:30:49.899] [exthost] [warning] [redhat.vscode-yaml] Accessing a resource scoped configuration without providing a resource is not expected. To get the effective value for '[yaml]', provide the URI of a resource or 'null' for any resource.
+[2021-11-29 21:31:00.411] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-11-29 21:31:01.438] [exthost] [info] exiting with code 0

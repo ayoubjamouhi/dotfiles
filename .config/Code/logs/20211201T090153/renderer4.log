@@ -1,0 +1,34 @@
+[2021-12-01 10:08:35.063] [renderer4] [info] Starting extension host with pid 9726.
+[2021-12-01 10:08:35.772] [renderer4] [error] [Extension Host] (node:9726) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2021-12-01 10:16:05.460] [renderer4] [error] write EPIPE: Error: write EPIPE
+    at afterWriteDispatched (internal/stream_base_commons.js:156:25)
+    at writeGeneric (internal/stream_base_commons.js:147:3)
+    at Socket._writeGeneric (net.js:785:11)
+    at Socket._write (net.js:797:8)
+    at writeOrBuffer (internal/streams/writable.js:358:12)
+    at Socket.Writable.write (internal/streams/writable.js:303:10)
+    at Socket.Writable.end (internal/streams/writable.js:567:10)
+    at Socket.end (net.js:591:31)
+    at /usr/share/code/resources/app/extensions/git/dist/main.js:2:990031
+    at new Promise (<anonymous>)
+    at /usr/share/code/resources/app/extensions/git/dist/main.js:2:989825
+    at O.retryRun (/usr/share/code/resources/app/extensions/git/dist/main.js:2:991405)
+    at O.run (/usr/share/code/resources/app/extensions/git/dist/main.js:2:991103)
+    at O.checkIgnore (/usr/share/code/resources/app/extensions/git/dist/main.js:2:989802)
+    at checkIgnoreSoon (/usr/share/code/resources/app/extensions/git/dist/main.js:2:905296)
+    at Timeout._onTimeout (/usr/share/code/resources/app/extensions/git/dist/main.js:2:909346)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+[2021-12-01 10:16:05.460] [renderer4] [error] [Extension Host] Error: spawn git ENOENT
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:269:19)
+    at onErrorNT (internal/child_process.js:465:16)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+[2021-12-01 10:16:05.461] [renderer4] [error] [Extension Host] Error: Unexpected SIGPIPE
+    at process.<anonymous> (/usr/share/code/resources/app/out/bootstrap.js:1:370)
+    at process.emit (events.js:315:20)
+[2021-12-01 10:16:06.452] [renderer4] [error] spawn git ENOENT: Error: spawn git ENOENT
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:269:19)
+    at onErrorNT (internal/child_process.js:465:16)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21)
+[2021-12-01 10:19:11.714] [renderer4] [error] spawn git ENOENT

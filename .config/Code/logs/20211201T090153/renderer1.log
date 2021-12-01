@@ -1,0 +1,39 @@
+[2021-12-01 09:01:55.199] [renderer1] [info] Starting extension host with pid 2874.
+[2021-12-01 09:01:56.202] [renderer1] [error] [Extension Host] (node:2874) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2021-12-01 09:11:26.537] [renderer1] [info] Starting extension host with pid 4939.
+[2021-12-01 09:11:26.860] [renderer1] [error] [Extension Host] (node:4939) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2021-12-01 09:36:53.399] [renderer1] [info] Starting extension host with pid 7583.
+[2021-12-01 09:36:54.240] [renderer1] [error] [Extension Host] (node:7583) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2021-12-01 09:38:12.155] [renderer1] [error] Cannot read property 'document' of undefined: TypeError: Cannot read property 'document' of undefined
+    at Function.handleContextChange (/home/dotnet/.vscode/extensions/atishay-jain.all-autocomplete-0.0.23/dist/extension.js:1:8106)
+    at /home/dotnet/.vscode/extensions/atishay-jain.all-autocomplete-0.0.23/dist/extension.js:1:10110
+    at a.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:66:1712)
+    at k.$acceptModelChanged (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:152503)
+    at i._doInvokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:98:13802)
+    at i._invokeHandler (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:98:13486)
+    at i._receiveRequest (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:98:12148)
+    at i._receiveOneMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:98:10826)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:98:8922
+    at a.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:66:1712)
+    at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:74:15990)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:113:30514
+    at a.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:66:1712)
+    at l.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:74:15990)
+    at u._receiveMessage (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:74:21260)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:74:18138
+    at a.fire (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:66:1712)
+    at w.acceptChunk (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:74:13351)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:74:12699
+    at Socket.v (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:113:13465)
+    at Socket.emit (events.js:315:20)
+    at addChunk (internal/streams/readable.js:309:12)
+    at readableAddChunk (internal/streams/readable.js:284:9)
+    at Socket.Readable.push (internal/streams/readable.js:223:10)
+    at Pipe.onStreamRead (internal/stream_base_commons.js:188:23)
+[2021-12-01 09:38:26.411] [renderer1] [info] Starting extension host with pid 7790.
+[2021-12-01 09:38:26.722] [renderer1] [error] [Extension Host] (node:7790) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2021-12-01 09:38:27.446] [renderer1] [info] Extension host with pid 7583 exited with code: 0, signal: null.

@@ -1,0 +1,64 @@
+["INFO" - 9:31:09 PM] Extension Name: esbenp.prettier-vscode.
+["INFO" - 9:31:09 PM] Extension Version: 9.0.0.
+["INFO" - 10:02:53 PM] Formatting file:///var/www/elearning/resources/js/src/views/studio/editor/topMenu.vue
+["INFO" - 10:02:53 PM] Using ignore file (if present) at /var/www/elearning/.prettierignore
+["INFO" - 10:02:53 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "vue"
+}
+["INFO" - 10:02:53 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 10:02:53 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/var/www/elearning/resources/js/src/views/studio/editor/topMenu.vue",
+  "parser": "vue"
+}
+["INFO" - 10:02:53 PM] Formatting completed in 0.353ms.
+["INFO" - 10:03:44 PM] Formatting file:///var/www/elearning/resources/js/src/views/studio/editor/mainEdit.vue
+["INFO" - 10:03:44 PM] Using ignore file (if present) at /var/www/elearning/.prettierignore
+["INFO" - 10:03:44 PM] File Info:
+{
+  "ignored": false,
+  "inferredParser": "vue"
+}
+["INFO" - 10:03:44 PM] No local configuration (i.e. .prettierrc or .editorconfig) detected, falling back to VS Code configuration
+["INFO" - 10:03:44 PM] Prettier Options:
+{
+  "arrowParens": "always",
+  "bracketSpacing": true,
+  "endOfLine": "lf",
+  "htmlWhitespaceSensitivity": "css",
+  "insertPragma": false,
+  "jsxBracketSameLine": false,
+  "jsxSingleQuote": false,
+  "printWidth": 80,
+  "proseWrap": "preserve",
+  "quoteProps": "as-needed",
+  "requirePragma": false,
+  "semi": true,
+  "singleQuote": false,
+  "tabWidth": 2,
+  "trailingComma": "es5",
+  "useTabs": false,
+  "vueIndentScriptAndStyle": false,
+  "filepath": "/var/www/elearning/resources/js/src/views/studio/editor/mainEdit.vue",
+  "parser": "vue"
+}
+["INFO" - 10:03:47 PM] Formatting completed in 2.765ms.

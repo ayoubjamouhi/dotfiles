@@ -1,0 +1,40 @@
+[2021-11-29 20:25:19.196] [renderer1] [info] Starting extension host with pid 7890.
+[2021-11-29 20:25:19.499] [renderer1] [error] [Extension Host] (node:7890) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `code --trace-deprecation ...` to show where the warning was created)
+[2021-11-29 20:28:41.806] [renderer1] [error] [text file model] handleSaveError(2) - exit - resulted in a save error: Error: Unable to write file '/var/www/elearning/resources/js/src/views/studio/create.vue' (Error: File Modified Since) file:///var/www/elearning/resources/js/src/views/studio/create.vue
+[2021-11-29 20:29:11.537] [renderer1] [error] [text file model] handleSaveError(7) - exit - resulted in a save error: Error: Unable to write file '/var/www/elearning/resources/js/src/views/studio/create.vue' (Error: File Modified Since) file:///var/www/elearning/resources/js/src/views/studio/create.vue
+[2021-11-29 20:30:14.760] [renderer1] [error] Cannot read property 'length' of null: TypeError: Cannot read property 'length' of null
+    at new Tokenizer (/home/dotnet/.vscode/extensions/wix.vscode-import-cost-2.15.0/node_modules/@babel/parser/lib/index.js:7796:25)
+    at new UtilParser (/home/dotnet/.vscode/extensions/wix.vscode-import-cost-2.15.0/node_modules/@babel/parser/lib/index.js:9029:1)
+    at new NodeUtils (/home/dotnet/.vscode/extensions/wix.vscode-import-cost-2.15.0/node_modules/@babel/parser/lib/index.js:9270:1)
+    at new LValParser (/home/dotnet/.vscode/extensions/wix.vscode-import-cost-2.15.0/node_modules/@babel/parser/lib/index.js:9319:1)
+    at new ExpressionParser (/home/dotnet/.vscode/extensions/wix.vscode-import-cost-2.15.0/node_modules/@babel/parser/lib/index.js:9806:1)
+    at new StatementParser (/home/dotnet/.vscode/extensions/wix.vscode-import-cost-2.15.0/node_modules/@babel/parser/lib/index.js:11603:1)
+    at new Parser (/home/dotnet/.vscode/extensions/wix.vscode-import-cost-2.15.0/node_modules/@babel/parser/lib/index.js:13386:5)
+    at new <anonymous> (/home/dotnet/.vscode/extensions/wix.vscode-import-cost-2.15.0/node_modules/@babel/parser/lib/index.js:4382:26)
+    at new <anonymous> (/home/dotnet/.vscode/extensions/wix.vscode-import-cost-2.15.0/node_modules/@babel/parser/lib/index.js:5169:33)
+    at getParser (/home/dotnet/.vscode/extensions/wix.vscode-import-cost-2.15.0/node_modules/@babel/parser/lib/index.js:13489:10)
+    at parse (/home/dotnet/.vscode/extensions/wix.vscode-import-cost-2.15.0/node_modules/@babel/parser/lib/index.js:13468:12)
+    at parse (/home/dotnet/.vscode/extensions/wix.vscode-import-cost-2.15.0/node_modules/import-cost/dist/babelParser.js:69:28)
+    at getPackages (/home/dotnet/.vscode/extensions/wix.vscode-import-cost-2.15.0/node_modules/import-cost/dist/babelParser.js:62:13)
+    at getPackages (/home/dotnet/.vscode/extensions/wix.vscode-import-cost-2.15.0/node_modules/import-cost/dist/parser.js:54:41)
+    at _callee$ (/home/dotnet/.vscode/extensions/wix.vscode-import-cost-2.15.0/node_modules/import-cost/dist/index.js:63:47)
+    at tryCatch (/home/dotnet/.vscode/extensions/wix.vscode-import-cost-2.15.0/node_modules/regenerator-runtime/runtime.js:63:40)
+    at Generator.invoke [as _invoke] (/home/dotnet/.vscode/extensions/wix.vscode-import-cost-2.15.0/node_modules/regenerator-runtime/runtime.js:293:22)
+    at Generator.next (/home/dotnet/.vscode/extensions/wix.vscode-import-cost-2.15.0/node_modules/regenerator-runtime/runtime.js:118:21)
+    at asyncGeneratorStep (/home/dotnet/.vscode/extensions/wix.vscode-import-cost-2.15.0/node_modules/@babel/runtime/helpers/asyncToGenerator.js:3:24)
+    at _next (/home/dotnet/.vscode/extensions/wix.vscode-import-cost-2.15.0/node_modules/@babel/runtime/helpers/asyncToGenerator.js:25:9)
+    at /home/dotnet/.vscode/extensions/wix.vscode-import-cost-2.15.0/node_modules/@babel/runtime/helpers/asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Timeout._onTimeout (/home/dotnet/.vscode/extensions/wix.vscode-import-cost-2.15.0/node_modules/@babel/runtime/helpers/asyncToGenerator.js:21:12)
+    at listOnTimeout (internal/timers.js:554:17)
+    at processTimers (internal/timers.js:497:7)
+[2021-11-29 20:31:10.444] [renderer1] [error] Error: file:///var/www/elearning/resources/js/src/views/studio/create.vue has changed in the meantime
+    at h.apply (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:898:10625)
+    at async n._performTextEdits (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2365:28830)
+    at async n.perform (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2365:28288)
+    at async s.apply (vscode-file://vscode-app/usr/share/code/resources/app/out/vs/workbench/workbench.desktop.main.js:2365:30417)
+[2021-11-29 20:31:10.444] [renderer1] [warning] IGNORING workspace edit {}
+[2021-11-29 20:31:10.541] [renderer1] [error] [text file model] handleSaveError(11) - exit - resulted in a save error: Error: Unable to write file '/var/www/elearning/resources/js/src/views/studio/create.vue' (Error: File Modified Since) file:///var/www/elearning/resources/js/src/views/studio/create.vue
+[2021-11-29 20:31:19.696] [renderer1] [error] [text file model] handleSaveError(11) - exit - resulted in a save error: Error: Unable to write file '/var/www/elearning/resources/js/src/views/studio/create.vue' (Error: File Modified Since) file:///var/www/elearning/resources/js/src/views/studio/create.vue
+[2021-11-29 20:31:26.561] [renderer1] [error] [text file model] handleSaveError(12) - exit - resulted in a save error: Error: Unable to write file '/var/www/elearning/resources/js/src/views/studio/create.vue' (Error: File Modified Since) file:///var/www/elearning/resources/js/src/views/studio/create.vue

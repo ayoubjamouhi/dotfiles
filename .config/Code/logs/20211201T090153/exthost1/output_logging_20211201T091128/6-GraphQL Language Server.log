@@ -1,0 +1,4 @@
+12/1/2021, 9:11:30 AM [3] (pid: 4991) graphql-language-service-usage-logs: {"type":"usage","messageType":"initialize"}
+12/1/2021, 9:11:31 AM [1] (pid: 4991) graphql-language-service-usage-logs: ConfigNotFoundError2: GraphQL Config file is not available in the provided config directory: /var/www/soft1.myvirtualtours.io
+Please check the config directory.
+[Info  - 9:36:52 AM] The graphql server has stopped running

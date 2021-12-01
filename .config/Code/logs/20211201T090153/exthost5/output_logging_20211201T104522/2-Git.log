@@ -1,0 +1,483 @@
+Validating found git in: git
+Using git 2.31.1 from git
+> git rev-parse --git-dir
+Open repository: /var/www/web.adasoft.com
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-parse --git-dir
+> git check-ignore -v -z --stdin
+Open repository: /var/www/api.adasoft.com
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/templates/reseller/reseller.component.html
+> git ls-files --stage -- /var/www/web.adasoft.com/src/app/templates/reseller/reseller.component.html
+> git cat-file -s 2511122856db1f3405b4a7b44160a190e8468ba6
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/templates/reseller/users.component.html
+> git ls-files --stage -- /var/www/web.adasoft.com/src/app/templates/reseller/users.component.html
+> git cat-file -s 499d09f9eae5f2cdce04c8585f662de6d3641e43
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/modules/reseller/users.components.ts
+> git ls-files --stage -- /var/www/web.adasoft.com/src/app/modules/reseller/users.components.ts
+> git cat-file -s 9d65912683d8b08e027e4171e1fb1dc90a1de3f8
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /var/www/web.adasoft.com/src/app/modules/reseller/users.components.ts
+> git cat-file -s 9d65912683d8b08e027e4171e1fb1dc90a1de3f8
+> git show --textconv :src/app/modules/reseller/users.components.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git ls-files --stage -- /var/www/web.adasoft.com/src/app/modules/reseller/users.components.ts
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git cat-file -s 9d65912683d8b08e027e4171e1fb1dc90a1de3f8
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git show --textconv :src/app/modules/reseller/users.components.ts
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/app/modules/widgetsss/widgets.components.ts
+> git ls-files --stage -- /var/www/web.adasoft.com/src/app/modules/widgetsss/widgets.components.ts
+> git cat-file -s 21bb7b94950536bd027d18a772dcdfd5ef9a38c6
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/modules/widgetsss/widgets.component.html
+> git ls-files --stage -- /var/www/web.adasoft.com/src/app/modules/widgetsss/widgets.component.html
+> git cat-file -s c0958454468d8e2e484333ccf457f40feda892ec
+> git check-ignore -v -z --stdin
+> git show --textconv :src/app/modules/widgetsss/widgets.components.ts
+> git ls-files --stage -- /var/www/web.adasoft.com/src/app/modules/widgetsss/widgets.components.ts
+> git cat-file -s 21bb7b94950536bd027d18a772dcdfd5ef9a38c6
+> git show --textconv :src/app/templates/reseller/users.component.html
+> git ls-files --stage -- /var/www/web.adasoft.com/src/app/templates/reseller/users.component.html
+> git cat-file -s 499d09f9eae5f2cdce04c8585f662de6d3641e43
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/app/modules/widgetsss/widgets.components.ts
+> git ls-files --stage -- /var/www/web.adasoft.com/src/app/modules/widgetsss/widgets.components.ts
+> git cat-file -s 21bb7b94950536bd027d18a772dcdfd5ef9a38c6
+> git show --textconv :src/app/templates/reseller/users.component.html
+> git ls-files --stage -- /var/www/web.adasoft.com/src/app/templates/reseller/users.component.html
+> git cat-file -s 499d09f9eae5f2cdce04c8585f662de6d3641e43
+> git show --textconv :src/app/modules/widgetsss/widgets.component.html
+> git ls-files --stage -- /var/www/web.adasoft.com/src/app/modules/widgetsss/widgets.component.html
+> git cat-file -s c0958454468d8e2e484333ccf457f40feda892ec
+> git show --textconv :src/app/templates/reseller/users.component.html
+> git ls-files --stage -- /var/www/web.adasoft.com/src/app/templates/reseller/users.component.html
+> git cat-file -s 499d09f9eae5f2cdce04c8585f662de6d3641e43
+> git show --textconv :src/app/modules/widgetsss/widgets.component.html
+> git ls-files --stage -- /var/www/web.adasoft.com/src/app/modules/widgetsss/widgets.component.html
+> git cat-file -s c0958454468d8e2e484333ccf457f40feda892ec
+> git show --textconv :src/app/templates/reseller/users.component.html
+> git ls-files --stage -- /var/www/web.adasoft.com/src/app/templates/reseller/users.component.html
+> git cat-file -s 499d09f9eae5f2cdce04c8585f662de6d3641e43
+> git show --textconv :src/app/modules/widgetsss/widgets.component.html
+> git ls-files --stage -- /var/www/web.adasoft.com/src/app/modules/widgetsss/widgets.component.html
+> git cat-file -s c0958454468d8e2e484333ccf457f40feda892ec
+> git show --textconv :src/app/templates/reseller/users.component.html
+> git ls-files --stage -- /var/www/web.adasoft.com/src/app/templates/reseller/users.component.html
+> git cat-file -s 499d09f9eae5f2cdce04c8585f662de6d3641e43
+> git show --textconv :src/app/modules/widgetsss/widgets.component.html
+> git ls-files --stage -- /var/www/web.adasoft.com/src/app/modules/widgetsss/widgets.component.html
+> git cat-file -s c0958454468d8e2e484333ccf457f40feda892ec
+> git show --textconv :src/app/templates/reseller/users.component.html
+> git ls-files --stage -- /var/www/web.adasoft.com/src/app/templates/reseller/users.component.html
+> git cat-file -s 499d09f9eae5f2cdce04c8585f662de6d3641e43
+> git show --textconv :src/app/modules/widgetsss/widgets.component.html
+> git ls-files --stage -- /var/www/web.adasoft.com/src/app/modules/widgetsss/widgets.component.html
+> git cat-file -s c0958454468d8e2e484333ccf457f40feda892ec
+> git show --textconv :src/app/modules/widgetsss/widgets.components.ts
+> git ls-files --stage -- /var/www/web.adasoft.com/src/app/modules/widgetsss/widgets.components.ts
+> git cat-file -s 21bb7b94950536bd027d18a772dcdfd5ef9a38c6
+> git show --textconv :src/app/modules/widgetsss/widgets.component.html
+> git ls-files --stage -- /var/www/web.adasoft.com/src/app/modules/widgetsss/widgets.component.html
+> git cat-file -s c0958454468d8e2e484333ccf457f40feda892ec
+> git show --textconv :src/app/templates/reseller/users.component.html
+> git ls-files --stage -- /var/www/web.adasoft.com/src/app/templates/reseller/users.component.html
+> git cat-file -s 499d09f9eae5f2cdce04c8585f662de6d3641e43
+> git show --textconv :src/app/modules/reseller/users.components.ts
+> git ls-files --stage -- /var/www/web.adasoft.com/src/app/modules/reseller/users.components.ts
+> git cat-file -s 9d65912683d8b08e027e4171e1fb1dc90a1de3f8
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- /var/www/web.adasoft.com/src/app/modules/reseller/users.components.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /var/www/web.adasoft.com/src/app/modules/reseller/users.components.ts
+> git cat-file -s 2e870492164c4eb76482842702407d98f67f5d99
+> git show --textconv :src/app/modules/reseller/users.components.ts
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file -
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git config --get commit.template
+> git ls-files --stage -- /var/www/web.adasoft.com/src/app/modules/reseller/users.components.ts
+> git cat-file -s 2e870492164c4eb76482842702407d98f67f5d99
+> git show --textconv :src/app/modules/reseller/users.components.ts
+> git show --textconv HEAD:index.php
+> git ls-tree -l HEAD -- /var/www/web.adasoft.com/index.php
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- /var/www/web.adasoft.com/index.php
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /var/www/web.adasoft.com/index.php
+> git cat-file -s fca4bf99b3f9efa40839f3df3f6060b30d5b738b
+> git show --textconv :index.php
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file -
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git config --get commit.template
+> git ls-tree -l HEAD -- /var/www/web.adasoft.com/index.php
+> git show --textconv HEAD:index.php
+> git show --textconv HEAD:softadaleadz.code-workspace
+> git ls-tree -l HEAD -- /var/www/web.adasoft.com/softadaleadz.code-workspace
+> git show --textconv HEAD:app/Http/Controllers/JvController.php
+> git ls-tree -l HEAD -- /var/www/api.adasoft.com/app/Http/Controllers/JvController.php
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv HEAD:app/Http/Controllers/ReportController.php
+> git ls-tree -l HEAD -- /var/www/api.adasoft.com/app/Http/Controllers/ReportController.php
+> git show --textconv HEAD:yarn.lock
+> git ls-tree -l HEAD -- /var/www/api.adasoft.com/yarn.lock
+> git ls-tree -l HEAD -- /var/www/web.adasoft.com/softadaleadz.code-workspace
+git.stage 1
+git.stage.scmResources 1
+> git add -A -- /var/www/web.adasoft.com/softadaleadz.code-workspace
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /var/www/web.adasoft.com/softadaleadz.code-workspace
+> git ls-tree -l HEAD -- /var/www/web.adasoft.com/index.php
+> git cat-file -s 27b5d285c5c20926ea636a704fa4a7e13c242460
+> git show --textconv HEAD:index.php
+> git show --textconv :softadaleadz.code-workspace
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file -
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git config --get commit.template
+> git ls-tree -l HEAD -- /var/www/web.adasoft.com/softadaleadz.code-workspace
+> git ls-tree -l HEAD -- /var/www/web.adasoft.com/index.php
+> git show --textconv HEAD:softadaleadz.code-workspace
+> git show --textconv HEAD:index.php
+> git log --oneline --cherry master...master@{upstream} --
+> git pull --tags origin master
+From github.com:ayoubjamouhi/soft.adaleadz.com
+ * branch            master     -> FETCH_HEAD
+hint: Pulling without specifying how to reconcile divergent branches is
+hint: discouraged. You can squelch this message by running one of the following
+hint: commands sometime before your next pull:
+hint: 
+hint:   git config pull.rebase false  # merge (the default strategy)
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint: 
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
+> git push origin master:master
+> git ls-tree -l HEAD -- /var/www/web.adasoft.com/softadaleadz.code-workspace
+> git ls-tree -l HEAD -- /var/www/web.adasoft.com/softadaleadz.code-workspace
+> git ls-tree -l HEAD -- /var/www/web.adasoft.com/index.php
+> git show --textconv HEAD:softadaleadz.code-workspace
+> git show --textconv HEAD:softadaleadz.code-workspace
+> git show --textconv HEAD:index.php
+To github.com:ayoubjamouhi/soft.adaleadz.com.git
+   305148e..33e6eac  master -> master
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /var/www/web.adasoft.com/softadaleadz.code-workspace
+> git ls-tree -l HEAD -- /var/www/web.adasoft.com/index.php
+> git show --textconv HEAD:softadaleadz.code-workspace
+> git show --textconv HEAD:index.php
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git add -A -- .
+> git -c user.useConfigOnly=true commit --quiet --allow-empty-message --file -
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git config --get commit.template
+> git ls-tree -l HEAD -- /var/www/api.adasoft.com/app/Http/Controllers/JvController.php
+> git ls-tree -l HEAD -- /var/www/api.adasoft.com/app/Http/Controllers/ReportController.php
+> git ls-tree -l HEAD -- /var/www/api.adasoft.com/yarn.lock
+> git show --textconv HEAD:app/Http/Controllers/ReportController.php
+> git show --textconv HEAD:app/Http/Controllers/JvController.php
+> git show --textconv HEAD:yarn.lock
+> git log --oneline --cherry master...master@{upstream} --
+> git pull --tags origin master
+> git ls-tree -l HEAD -- /var/www/web.adasoft.com/softadaleadz.code-workspace
+> git ls-tree -l HEAD -- /var/www/api.adasoft.com/app/Http/Controllers/JvController.php
+> git ls-tree -l HEAD -- /var/www/api.adasoft.com/app/Http/Controllers/ReportController.php
+> git ls-tree -l HEAD -- /var/www/api.adasoft.com/yarn.lock
+> git show --textconv HEAD:softadaleadz.code-workspace
+> git show --textconv HEAD:app/Http/Controllers/ReportController.php
+> git show --textconv HEAD:app/Http/Controllers/JvController.php
+> git show --textconv HEAD:yarn.lock
+From github.com:ayoubjamouhi/adaleadz-api
+ * branch              master     -> FETCH_HEAD
+   6a02b176..7eaaf3ff  master     -> origin/master
+hint: Pulling without specifying how to reconcile divergent branches is
+hint: discouraged. You can squelch this message by running one of the following
+hint: commands sometime before your next pull:
+hint: 
+hint:   git config pull.rebase false  # merge (the default strategy)
+hint:   git config pull.rebase true   # rebase
+hint:   git config pull.ff only       # fast-forward only
+hint: 
+hint: You can replace "git config" with "git config --global" to set a default
+hint: preference for all repositories. You can also pass --rebase, --no-rebase,
+hint: or --ff-only on the command line to override the configured default per
+hint: invocation.
+> git push origin master:master
+remote: This repository moved. Please use the new location:        
+remote:   git@github.com:ayoubjamouhi/softapi.adaleadz.com.git        
+To github.com:ayoubjamouhi/adaleadz-api.git
+   7eaaf3ff..d7fb0f67  master -> master
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-tree -l HEAD -- /var/www/web.adasoft.com/softadaleadz.code-workspace
+> git status -z -u
+> git ls-tree -l HEAD -- /var/www/api.adasoft.com/app/Http/Controllers/JvController.php
+> git ls-tree -l HEAD -- /var/www/api.adasoft.com/app/Http/Controllers/ReportController.php
+> git ls-tree -l HEAD -- /var/www/api.adasoft.com/yarn.lock
+> git show --textconv HEAD:softadaleadz.code-workspace
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/master refs/remotes/master
+> git show --textconv HEAD:app/Http/Controllers/ReportController.php
+> git show --textconv HEAD:app/Http/Controllers/JvController.php
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git show --textconv HEAD:yarn.lock
+> git config --get commit.template
+> git ls-tree -l HEAD -- /var/www/web.adasoft.com/softadaleadz.code-workspace
+> git ls-tree -l HEAD -- /var/www/web.adasoft.com/softadaleadz.code-workspace

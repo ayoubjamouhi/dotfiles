@@ -1,6 +1,4 @@
 syntax on
-nnoremap <Tab> :bnext<CR>
-nnoremap <S-Tab> :bprevious<CR>
 
 inoremap jj <ESC>
 highlight Cursor guifg=white guibg=black

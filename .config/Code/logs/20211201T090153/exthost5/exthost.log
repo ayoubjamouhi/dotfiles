@@ -1,0 +1,333 @@
+[2021-12-01 10:19:10.474] [exthost] [info] extension host started
+[2021-12-01 10:19:10.474] [exthost] [info] Skipping acquiring lock for /home/dotnet/.config/Code/User/workspaceStorage/4335e337635f4c4839734daabee17dcf.
+[2021-12-01 10:19:10.784] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2021-12-01 10:19:10.784] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js
+[2021-12-01 10:19:10.796] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-12-01 10:19:10.796] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2021-12-01 10:19:10.800] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-12-01 10:19:10.800] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/git/dist/main
+[2021-12-01 10:19:10.822] [exthost] [info] ExtensionService#_doActivateExtension Atishay-Jain.All-Autocomplete, startup: true, activationEvent: '*'
+[2021-12-01 10:19:10.822] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/atishay-jain.all-autocomplete-0.0.23/dist/extension
+[2021-12-01 10:19:10.830] [exthost] [info] ExtensionService#_doActivateExtension CoenraadS.bracket-pair-colorizer, startup: true, activationEvent: '*'
+[2021-12-01 10:19:10.830] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/coenraads.bracket-pair-colorizer-1.0.61/out/src/extension
+[2021-12-01 10:19:10.844] [exthost] [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: true, activationEvent: '*'
+[2021-12-01 10:19:10.844] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/editorconfig.editorconfig-0.16.4/out/editorConfigMain.js
+[2021-12-01 10:19:10.858] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag, startup: true, activationEvent: '*'
+[2021-12-01 10:19:10.858] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/formulahendry.auto-close-tag-0.5.13/out/src/extension
+[2021-12-01 10:19:10.860] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+[2021-12-01 10:19:10.860] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/formulahendry.auto-rename-tag-0.1.9/packages/extension/dist/extensionMain.js
+[2021-12-01 10:19:10.874] [exthost] [info] ExtensionService#_doActivateExtension GraphQL.vscode-graphql, startup: true, activationEvent: '*'
+[2021-12-01 10:19:10.896] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/graphql.vscode-graphql-0.3.27/out/extension
+[2021-12-01 10:19:11.001] [exthost] [info] ExtensionService#_doActivateExtension HookyQR.beautify, startup: true, activationEvent: '*'
+[2021-12-01 10:19:11.001] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/hookyqr.beautify-1.5.0/extension
+[2021-12-01 10:19:11.046] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.sublime-keybindings, startup: true, activationEvent: '*'
+[2021-12-01 10:19:11.046] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/ms-vscode.sublime-keybindings-4.0.10/dist/extension.js
+[2021-12-01 10:19:11.050] [exthost] [info] ExtensionService#_doActivateExtension naumovs.color-highlight, startup: true, activationEvent: '*'
+[2021-12-01 10:19:11.050] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/naumovs.color-highlight-2.5.0/dist/extension-node.js
+[2021-12-01 10:19:11.056] [exthost] [info] ExtensionService#_doActivateExtension stef-k.laravel-goto-controller, startup: true, activationEvent: '*'
+[2021-12-01 10:19:11.056] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/stef-k.laravel-goto-controller-0.0.15/out/extension
+[2021-12-01 10:19:11.060] [exthost] [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: true, activationEvent: '*'
+[2021-12-01 10:19:11.060] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/vscodevim.vim-1.21.10/out/extension
+[2021-12-01 10:19:11.121] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+[2021-12-01 10:19:11.121] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/npm/dist/npmMain
+[2021-12-01 10:19:11.569] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug, startup: false, activationEvent: 'onCommand:extension.js-debug.clearAutoAttachVariables'
+[2021-12-01 10:19:11.570] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/ms-vscode.js-debug/src/extension.js
+[2021-12-01 10:19:11.907] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+[2021-12-01 10:19:11.907] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github/dist/extension.js
+[2021-12-01 10:19:12.081] [exthost] [info] eager extensions activated
+[2021-12-01 10:19:12.123] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2021-12-01 10:19:12.123] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github-authentication/dist/extension.js
+[2021-12-01 10:19:12.136] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-01 10:19:12.136] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain
+[2021-12-01 10:19:12.162] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-01 10:19:12.163] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2021-12-01 10:19:12.167] [exthost] [info] ExtensionService#_doActivateExtension bradlc.vscode-tailwindcss, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-01 10:19:12.167] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/bradlc.vscode-tailwindcss-0.7.2/dist/extension/index.js
+[2021-12-01 10:19:12.184] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-01 10:19:12.184] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/dbaeumer.vscode-eslint-2.2.2/client/out/extension
+[2021-12-01 10:19:12.202] [exthost] [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-01 10:19:12.202] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/eamodio.gitlens-11.6.1/dist/gitlens
+[2021-12-01 10:19:12.265] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-01 10:19:12.265] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/esbenp.prettier-vscode-9.0.0/dist/extension
+[2021-12-01 10:20:19.872] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:javascript'
+[2021-12-01 10:20:19.872] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/typescript-language-features/dist/extension
+[2021-12-01 10:20:19.895] [exthost] [info] ExtensionService#_doActivateExtension christian-kohler.npm-intellisense, startup: false, activationEvent: 'onLanguage:javascript'
+[2021-12-01 10:20:19.895] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/christian-kohler.npm-intellisense-1.4.0/out/src/extension
+[2021-12-01 10:20:19.926] [exthost] [info] ExtensionService#_doActivateExtension wix.vscode-import-cost, startup: false, activationEvent: 'onLanguage:javascript'
+[2021-12-01 10:20:19.926] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/wix.vscode-import-cost-2.15.0/out/extension.js
+[2021-12-01 10:20:26.530] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-01 10:20:26.573] [exthost] [info] ExtensionService#_doActivateExtension vscode.php-language-features, startup: false, activationEvent: 'onLanguage:php'
+[2021-12-01 10:20:26.573] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/php-language-features/dist/phpMain
+[2021-12-01 10:20:26.583] [exthost] [info] ExtensionService#_doActivateExtension bmewburn.vscode-intelephense-client, startup: false, activationEvent: 'onLanguage:php'
+[2021-12-01 10:20:26.583] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/bmewburn.vscode-intelephense-client-1.7.1/lib/extension
+[2021-12-01 10:20:26.596] [exthost] [info] ExtensionService#_doActivateExtension junstyle.php-cs-fixer, startup: false, activationEvent: 'onLanguage:php'
+[2021-12-01 10:20:26.597] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/junstyle.php-cs-fixer-0.2.8/index
+[2021-12-01 10:20:26.627] [exthost] [info] ExtensionService#_doActivateExtension MehediDracula.php-constructor, startup: false, activationEvent: 'onLanguage:php'
+[2021-12-01 10:20:26.627] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/mehedidracula.php-constructor-0.1.2/src/extension
+[2021-12-01 10:20:26.630] [exthost] [info] ExtensionService#_doActivateExtension MehediDracula.php-namespace-resolver, startup: false, activationEvent: 'onLanguage:php'
+[2021-12-01 10:20:26.630] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/mehedidracula.php-namespace-resolver-1.1.8/src/extension
+[2021-12-01 10:20:26.636] [exthost] [info] ExtensionService#_doActivateExtension neilbrayfield.php-docblocker, startup: false, activationEvent: 'onLanguage:php'
+[2021-12-01 10:20:26.636] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/neilbrayfield.php-docblocker-2.6.1/out/src/extension.js
+[2021-12-01 10:22:25.149] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-01 10:23:06.167] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-01 10:23:50.779] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-01 10:25:09.580] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-01 10:25:09.601] [exthost] [info] ExtensionService#_doActivateExtension octref.vetur, startup: false, activationEvent: 'onLanguage:vue'
+[2021-12-01 10:25:09.601] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/octref.vetur-0.35.0/dist/vueMain.js
+[2021-12-01 10:26:08.467] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-01 10:27:32.590] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-01 10:27:34.592] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-01 10:27:59.611] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-01 10:28:00.964] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-01 10:28:02.137] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-01 10:32:03.204] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-01 10:32:04.519] [exthost] [info] ExtensionService#_doActivateExtension Angular.ng-template, startup: false, activationEvent: 'onLanguage:typescript'
+[2021-12-01 10:32:04.519] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/angular.ng-template-13.0.0/index
+[2021-12-01 10:32:04.666] [exthost] [info] ExtensionService#_doActivateExtension steoates.autoimport, startup: false, activationEvent: 'onLanguage:typescript'
+[2021-12-01 10:32:04.666] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/steoates.autoimport-1.5.4/out/src/extension
+[2021-12-01 10:32:05.102] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-01 10:32:09.528] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-01 10:32:11.627] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-01 10:33:51.766] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-01 10:37:02.674] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-01 10:37:31.097] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-01 10:37:32.942] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-01 10:37:53.173] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-01 10:38:15.675] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2021-12-01 10:38:15.675] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/configuration-editing/dist/configurationEditingMain
+[2021-12-01 10:38:15.683] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2021-12-01 10:38:15.683] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain
+[2021-12-01 10:39:48.115] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-01 10:40:11.435] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-01 10:43:48.962] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-01 10:44:39.735] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-01 10:45:01.587] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-01 10:45:20.970] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-12-01 10:45:21.012] [exthost] [error] TypeError: Cannot read private member from an object whose class did not declare it
+    at Ne (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:6779)
+    at Object.dispose (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:17637)
+    at d (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:14:4961)
+    at w._deactivate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:11412)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:9991
+    at Array.map (<anonymous>)
+    at w.deactivateAll (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:9979)
+    at b.terminate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:103:723)
+    at o (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:113:32535)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:113:30185)
+    at Socket.emit (events.js:327:22)
+    at Socket.EventEmitter.emit (domain.js:467:12)
+    at Pipe.<anonymous> (net.js:673:12)
+[2021-12-01 10:45:21.022] [exthost] [error] TypeError: c.dispose is not a function
+    at d (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:14:4961)
+    at w._deactivate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:11412)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:9991
+    at Array.map (<anonymous>)
+    at w.deactivateAll (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:9979)
+    at b.terminate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:103:723)
+    at o (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:113:32535)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:113:30185)
+    at Socket.emit (events.js:327:22)
+    at Socket.EventEmitter.emit (domain.js:467:12)
+    at Pipe.<anonymous> (net.js:673:12)
+[2021-12-01 10:45:21.023] [exthost] [error] TypeError: c.dispose is not a function
+    at d (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:14:4961)
+    at w._deactivate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:11412)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:9991
+    at Array.map (<anonymous>)
+    at w.deactivateAll (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:9979)
+    at b.terminate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:103:723)
+    at o (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:113:32535)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:113:30185)
+    at Socket.emit (events.js:327:22)
+    at Socket.EventEmitter.emit (domain.js:467:12)
+    at Pipe.<anonymous> (net.js:673:12)
+[2021-12-01 10:45:21.513] [exthost] [error] TypeError: r.some is not a function
+    at Function.saveToDisk (/home/dotnet/.vscode/extensions/vscodevim.vim-1.21.10/src/register/register.ts:350:30)
+    at Object.e.deactivate (/home/dotnet/.vscode/extensions/vscodevim.vim-1.21.10/extension.ts:37:18)
+    at w._deactivate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:11277)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:9991
+    at Array.map (<anonymous>)
+    at w.deactivateAll (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:9979)
+    at b.terminate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:103:723)
+    at o (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:113:32535)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:113:30185)
+    at Socket.emit (events.js:327:22)
+    at Socket.EventEmitter.emit (domain.js:467:12)
+    at Pipe.<anonymous> (net.js:673:12)
+[2021-12-01 10:45:22.026] [exthost] [info] exiting with code 0
+[2021-12-01 10:45:22.687] [exthost] [info] extension host started
+[2021-12-01 10:45:22.687] [exthost] [info] Skipping acquiring lock for /home/dotnet/.config/Code/User/workspaceStorage/7b230f45f630f9537bb8218c00030241.
+[2021-12-01 10:45:22.756] [exthost] [info] ExtensionService#_doActivateExtension vscode.microsoft-authentication, startup: false, activationEvent: 'onAuthenticationRequest:microsoft'
+[2021-12-01 10:45:22.756] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/microsoft-authentication/dist/extension.js
+[2021-12-01 10:45:22.766] [exthost] [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: true, activationEvent: '*'
+[2021-12-01 10:45:22.766] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/debug-auto-launch/dist/extension
+[2021-12-01 10:45:22.768] [exthost] [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*', root cause: vscode.github
+[2021-12-01 10:45:22.768] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/git/dist/main
+[2021-12-01 10:45:22.784] [exthost] [info] ExtensionService#_doActivateExtension Atishay-Jain.All-Autocomplete, startup: true, activationEvent: '*'
+[2021-12-01 10:45:22.784] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/atishay-jain.all-autocomplete-0.0.23/dist/extension
+[2021-12-01 10:45:22.788] [exthost] [info] ExtensionService#_doActivateExtension CoenraadS.bracket-pair-colorizer, startup: true, activationEvent: '*'
+[2021-12-01 10:45:22.788] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/coenraads.bracket-pair-colorizer-1.0.61/out/src/extension
+[2021-12-01 10:45:22.815] [exthost] [info] ExtensionService#_doActivateExtension EditorConfig.EditorConfig, startup: true, activationEvent: '*'
+[2021-12-01 10:45:22.815] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/editorconfig.editorconfig-0.16.4/out/editorConfigMain.js
+[2021-12-01 10:45:22.831] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-close-tag, startup: true, activationEvent: '*'
+[2021-12-01 10:45:22.831] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/formulahendry.auto-close-tag-0.5.13/out/src/extension
+[2021-12-01 10:45:22.833] [exthost] [info] ExtensionService#_doActivateExtension formulahendry.auto-rename-tag, startup: true, activationEvent: '*'
+[2021-12-01 10:45:22.833] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/formulahendry.auto-rename-tag-0.1.9/packages/extension/dist/extensionMain.js
+[2021-12-01 10:45:22.840] [exthost] [info] ExtensionService#_doActivateExtension GraphQL.vscode-graphql, startup: true, activationEvent: '*'
+[2021-12-01 10:45:22.840] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/graphql.vscode-graphql-0.3.27/out/extension
+[2021-12-01 10:45:22.892] [exthost] [info] ExtensionService#_doActivateExtension HookyQR.beautify, startup: true, activationEvent: '*'
+[2021-12-01 10:45:22.892] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/hookyqr.beautify-1.5.0/extension
+[2021-12-01 10:45:22.919] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.sublime-keybindings, startup: true, activationEvent: '*'
+[2021-12-01 10:45:22.919] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/ms-vscode.sublime-keybindings-4.0.10/dist/extension.js
+[2021-12-01 10:45:22.921] [exthost] [info] ExtensionService#_doActivateExtension naumovs.color-highlight, startup: true, activationEvent: '*'
+[2021-12-01 10:45:22.921] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/naumovs.color-highlight-2.5.0/dist/extension-node.js
+[2021-12-01 10:45:22.926] [exthost] [info] ExtensionService#_doActivateExtension stef-k.laravel-goto-controller, startup: true, activationEvent: '*'
+[2021-12-01 10:45:22.926] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/stef-k.laravel-goto-controller-0.0.15/out/extension
+[2021-12-01 10:45:22.929] [exthost] [info] ExtensionService#_doActivateExtension vscodevim.vim, startup: true, activationEvent: '*'
+[2021-12-01 10:45:22.929] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/vscodevim.vim-1.21.10/out/extension
+[2021-12-01 10:45:22.962] [exthost] [info] ExtensionService#_doActivateExtension vscode.npm, startup: true, activationEvent: 'workspaceContains:package.json'
+[2021-12-01 10:45:22.962] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/npm/dist/npmMain
+[2021-12-01 10:45:23.231] [exthost] [info] ExtensionService#_doActivateExtension ms-vscode.js-debug, startup: false, activationEvent: 'onCommand:extension.js-debug.clearAutoAttachVariables'
+[2021-12-01 10:45:23.231] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/ms-vscode.js-debug/src/extension.js
+[2021-12-01 10:45:23.373] [exthost] [info] ExtensionService#_doActivateExtension vscode.github, startup: false, activationEvent: '*'
+[2021-12-01 10:45:23.373] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github/dist/extension.js
+[2021-12-01 10:45:23.412] [exthost] [info] eager extensions activated
+[2021-12-01 10:45:23.429] [exthost] [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+[2021-12-01 10:45:23.429] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/github-authentication/dist/extension.js
+[2021-12-01 10:45:23.437] [exthost] [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-01 10:45:23.437] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/emmet/dist/node/emmetNodeMain
+[2021-12-01 10:45:23.443] [exthost] [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-01 10:45:23.443] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/merge-conflict/dist/mergeConflictMain
+[2021-12-01 10:45:23.446] [exthost] [info] ExtensionService#_doActivateExtension bradlc.vscode-tailwindcss, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-01 10:45:23.446] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/bradlc.vscode-tailwindcss-0.7.2/dist/extension/index.js
+[2021-12-01 10:45:23.453] [exthost] [info] ExtensionService#_doActivateExtension dbaeumer.vscode-eslint, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-01 10:45:23.453] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/dbaeumer.vscode-eslint-2.2.2/client/out/extension
+[2021-12-01 10:45:23.462] [exthost] [info] ExtensionService#_doActivateExtension eamodio.gitlens, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-01 10:45:23.462] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/eamodio.gitlens-11.6.1/dist/gitlens
+[2021-12-01 10:45:23.492] [exthost] [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+[2021-12-01 10:45:23.492] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/esbenp.prettier-vscode-9.0.0/dist/extension
+[2021-12-01 10:50:42.148] [exthost] [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+[2021-12-01 10:50:42.149] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/html-language-features/client/dist/node/htmlClientMain
+[2021-12-01 10:50:42.182] [exthost] [info] ExtensionService#_doActivateExtension Angular.ng-template, startup: false, activationEvent: 'onLanguage:html'
+[2021-12-01 10:50:42.182] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/angular.ng-template-13.0.0/index
+[2021-12-01 10:50:42.488] [exthost] [info] ExtensionService#_doActivateExtension mrmlnc.vscode-attrs-sorter, startup: false, activationEvent: 'onLanguage:html'
+[2021-12-01 10:50:42.488] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/mrmlnc.vscode-attrs-sorter-2.1.0/extension
+[2021-12-01 10:51:52.574] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-01 10:52:06.558] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-01 10:52:06.617] [exthost] [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:typescript'
+[2021-12-01 10:52:06.617] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/typescript-language-features/dist/extension
+[2021-12-01 10:52:06.635] [exthost] [info] ExtensionService#_doActivateExtension christian-kohler.npm-intellisense, startup: false, activationEvent: 'onLanguage:typescript'
+[2021-12-01 10:52:06.635] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/christian-kohler.npm-intellisense-1.4.0/out/src/extension
+[2021-12-01 10:52:06.661] [exthost] [info] ExtensionService#_doActivateExtension steoates.autoimport, startup: false, activationEvent: 'onLanguage:typescript'
+[2021-12-01 10:52:06.661] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/steoates.autoimport-1.5.4/out/src/extension
+[2021-12-01 10:52:06.680] [exthost] [info] ExtensionService#_doActivateExtension wix.vscode-import-cost, startup: false, activationEvent: 'onLanguage:typescript'
+[2021-12-01 10:52:06.680] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/wix.vscode-import-cost-2.15.0/out/extension.js
+[2021-12-01 10:52:10.449] [exthost] [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+[2021-12-01 10:52:10.449] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/configuration-editing/dist/configurationEditingMain
+[2021-12-01 10:52:10.451] [exthost] [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+[2021-12-01 10:52:10.451] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain
+[2021-12-01 10:55:21.813] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-01 10:55:31.431] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-01 10:55:56.577] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-01 10:55:56.577] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-01 10:55:56.578] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-01 10:56:00.506] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-01 10:56:26.204] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-01 10:56:27.146] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-01 10:56:27.754] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-01 10:56:29.900] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-01 10:56:31.492] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-01 10:56:32.573] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-01 10:56:34.552] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-01 10:56:35.714] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-01 10:56:36.803] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-01 10:56:37.886] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-01 10:56:39.275] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-01 10:56:44.676] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-01 10:56:58.737] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-01 10:57:03.962] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-01 10:57:09.015] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-01 10:59:51.027] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-01 10:59:51.077] [exthost] [info] ExtensionService#_doActivateExtension vscode.php-language-features, startup: false, activationEvent: 'onLanguage:php'
+[2021-12-01 10:59:51.077] [exthost] [info] ExtensionService#loadCommonJSModule file:///usr/share/code/resources/app/extensions/php-language-features/dist/phpMain
+[2021-12-01 10:59:51.093] [exthost] [info] ExtensionService#_doActivateExtension bmewburn.vscode-intelephense-client, startup: false, activationEvent: 'onLanguage:php'
+[2021-12-01 10:59:51.093] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/bmewburn.vscode-intelephense-client-1.7.1/lib/extension
+[2021-12-01 10:59:51.103] [exthost] [info] ExtensionService#_doActivateExtension junstyle.php-cs-fixer, startup: false, activationEvent: 'onLanguage:php'
+[2021-12-01 10:59:51.103] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/junstyle.php-cs-fixer-0.2.8/index
+[2021-12-01 10:59:51.116] [exthost] [info] ExtensionService#_doActivateExtension MehediDracula.php-constructor, startup: false, activationEvent: 'onLanguage:php'
+[2021-12-01 10:59:51.116] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/mehedidracula.php-constructor-0.1.2/src/extension
+[2021-12-01 10:59:51.125] [exthost] [info] ExtensionService#_doActivateExtension MehediDracula.php-namespace-resolver, startup: false, activationEvent: 'onLanguage:php'
+[2021-12-01 10:59:51.125] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/mehedidracula.php-namespace-resolver-1.1.8/src/extension
+[2021-12-01 10:59:51.128] [exthost] [info] ExtensionService#_doActivateExtension neilbrayfield.php-docblocker, startup: false, activationEvent: 'onLanguage:php'
+[2021-12-01 10:59:51.128] [exthost] [info] ExtensionService#loadCommonJSModule file:///home/dotnet/.vscode/extensions/neilbrayfield.php-docblocker-2.6.1/out/src/extension.js
+[2021-12-01 11:00:13.699] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-01 11:00:15.578] [exthost] [error] [vscode.json-language-features] provider FAILED
+[2021-12-01 11:00:15.578] [exthost] [error] Canceled: Canceled
+    at b.makeCancelError (/usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:458291)
+    at b.handleFailedRequest (/usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:458142)
+    at /usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:469344
+    at X.provideColors (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:186384)
+[2021-12-01 11:00:15.579] [exthost] [error] [vscode.json-language-features] provider FAILED
+[2021-12-01 11:00:15.579] [exthost] [error] Canceled: Canceled
+    at b.makeCancelError (/usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:458291)
+    at b.handleFailedRequest (/usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:458142)
+    at /usr/share/code/resources/app/extensions/json-language-features/client/dist/node/jsonClientMain.js:1:469344
+    at runNextTicks (internal/process/task_queues.js:58:5)
+    at processImmediate (internal/timers.js:434:9)
+    at X.provideColors (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:94:186384)
+[2021-12-01 11:00:26.034] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-01 11:00:29.278] [exthost] [warning] TextEditor is closed/disposed
+[2021-12-01 11:36:51.371] [exthost] [info] extension host terminating: renderer closed the socket
+[2021-12-01 11:36:51.386] [exthost] [error] TypeError: Cannot read private member from an object whose class did not declare it
+    at Ne (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:6779)
+    at Object.dispose (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:87:17637)
+    at d (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:14:4961)
+    at w._deactivate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:11412)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:9991
+    at Array.map (<anonymous>)
+    at w.deactivateAll (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:9979)
+    at b.terminate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:103:723)
+    at o (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:113:32535)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:113:30185)
+    at Socket.emit (events.js:327:22)
+    at Socket.EventEmitter.emit (domain.js:467:12)
+    at Pipe.<anonymous> (net.js:673:12)
+[2021-12-01 11:36:51.406] [exthost] [error] TypeError: c.dispose is not a function
+    at d (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:14:4961)
+    at w._deactivate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:11412)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:9991
+    at Array.map (<anonymous>)
+    at w.deactivateAll (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:9979)
+    at b.terminate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:103:723)
+    at o (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:113:32535)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:113:30185)
+    at Socket.emit (events.js:327:22)
+    at Socket.EventEmitter.emit (domain.js:467:12)
+    at Pipe.<anonymous> (net.js:673:12)
+[2021-12-01 11:36:51.406] [exthost] [error] TypeError: c.dispose is not a function
+    at d (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:14:4961)
+    at w._deactivate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:11412)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:9991
+    at Array.map (<anonymous>)
+    at w.deactivateAll (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:9979)
+    at b.terminate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:103:723)
+    at o (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:113:32535)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:113:30185)
+    at Socket.emit (events.js:327:22)
+    at Socket.EventEmitter.emit (domain.js:467:12)
+    at Pipe.<anonymous> (net.js:673:12)
+[2021-12-01 11:36:51.414] [exthost] [warning] {"name":"Canceled"}
+[2021-12-01 11:36:51.705] [exthost] [error] TypeError: r.some is not a function
+    at Function.saveToDisk (/home/dotnet/.vscode/extensions/vscodevim.vim-1.21.10/src/register/register.ts:350:30)
+    at Object.e.deactivate (/home/dotnet/.vscode/extensions/vscodevim.vim-1.21.10/extension.ts:37:18)
+    at w._deactivate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:11277)
+    at /usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:9991
+    at Array.map (<anonymous>)
+    at w.deactivateAll (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:99:9979)
+    at b.terminate (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:103:723)
+    at o (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:113:32535)
+    at Socket.<anonymous> (/usr/share/code/resources/app/out/vs/workbench/services/extensions/node/extensionHostProcess.js:113:30185)
+    at Socket.emit (events.js:327:22)
+    at Socket.EventEmitter.emit (domain.js:467:12)
+    at Pipe.<anonymous> (net.js:673:12)
+[2021-12-01 11:36:52.410] [exthost] [info] exiting with code 0

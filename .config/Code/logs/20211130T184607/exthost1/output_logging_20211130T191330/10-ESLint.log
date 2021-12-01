@@ -1,0 +1,5 @@
+[Info  - 7:13:30 PM] ESLint server is starting
+[Info  - 7:13:30 PM] ESLint server running in node v14.16.0
+[Info  - 7:13:30 PM] ESLint server is running.
+[Info  - 7:13:31 PM] ESLint library loaded from: /home/dotnet/Code/Dev/rewriter.com/frontend/node_modules/eslint/lib/api.js
+Pages directory cannot be found at /home/dotnet/Code/Dev/rewriter.com/pages or /home/dotnet/Code/Dev/rewriter.com/src/pages. If using a custom path, please configure with the no-html-link-for-pages rule in your eslint config file

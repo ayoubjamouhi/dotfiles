@@ -1,0 +1,29 @@
+[2021-11-26 12:51:06.207] [sharedprocess] [info] Installing extension: ms-python.vscode-pylance
+[2021-11-26 12:51:06.223] [sharedprocess] [info] Installing extension: graphql.vscode-graphql
+[2021-11-26 12:51:06.223] [sharedprocess] [info] Installing extension: redhat.vscode-yaml
+[2021-11-26 12:51:06.621] [sharedprocess] [info] Downloaded extension: graphql.vscode-graphql /home/dotnet/.config/Code/CachedExtensionVSIXs/graphql.vscode-graphql-0.3.23
+[2021-11-26 12:51:07.600] [sharedprocess] [info] Downloaded extension: redhat.vscode-yaml /home/dotnet/.config/Code/CachedExtensionVSIXs/redhat.vscode-yaml-1.2.1
+[2021-11-26 12:51:07.652] [sharedprocess] [info] Extracted extension to /home/dotnet/.vscode/extensions/.d3b07614-8abc-461b-917b-f596d50c17c9: redhat.vscode-yaml
+[2021-11-26 12:51:07.659] [sharedprocess] [info] Renamed to /home/dotnet/.vscode/extensions/redhat.vscode-yaml-1.2.1
+[2021-11-26 12:51:07.660] [sharedprocess] [info] Extracting completed. redhat.vscode-yaml
+[2021-11-26 12:51:07.668] [sharedprocess] [info] Extension installed successfully: redhat.vscode-yaml
+[2021-11-26 12:51:08.832] [sharedprocess] [info] Extracted extension to /home/dotnet/.vscode/extensions/.ce4305a8-e78f-490b-a8b0-df22962fda08: graphql.vscode-graphql
+[2021-11-26 12:51:08.840] [sharedprocess] [info] Renamed to /home/dotnet/.vscode/extensions/graphql.vscode-graphql-0.3.23
+[2021-11-26 12:51:08.840] [sharedprocess] [info] Extracting completed. graphql.vscode-graphql
+[2021-11-26 12:51:08.846] [sharedprocess] [info] Extension installed successfully: graphql.vscode-graphql
+[2021-11-26 12:51:09.660] [sharedprocess] [info] Downloaded extension: ms-python.vscode-pylance /home/dotnet/.config/Code/CachedExtensionVSIXs/ms-python.vscode-pylance-2021.11.2
+[2021-11-26 12:51:11.052] [sharedprocess] [info] Extracted extension to /home/dotnet/.vscode/extensions/.4bcb6b63-f07f-4c8c-b9ef-7347c91fc7ae: ms-python.vscode-pylance
+[2021-11-26 12:51:11.061] [sharedprocess] [info] Renamed to /home/dotnet/.vscode/extensions/ms-python.vscode-pylance-2021.11.2
+[2021-11-26 12:51:11.062] [sharedprocess] [info] Extracting completed. ms-python.vscode-pylance
+[2021-11-26 12:51:11.079] [sharedprocess] [info] Extension installed successfully: ms-python.vscode-pylance
+[2021-11-26 12:51:12.871] [sharedprocess] [info] [logs cleanup]: Starting to clean up old logs.
+[2021-11-26 12:51:12.873] [sharedprocess] [info] [logs cleanup]: Removing log folders '20211110T092136, 20211111T231525, 20211113T085400, 20211113T210131, 20211113T233923, 20211114T195555, 20211114T200002, 20211116T173757, 20211117T013535, 20211117T013748, 20211117T021852, 20211117T021916, 20211117T021917, 20211117T021918, 20211117T021919, 20211117T021920'
+[2021-11-26 12:51:32.872] [sharedprocess] [info] [code cache cleanup]: Starting to clean up old code cache folders.
+[2021-11-26 12:51:32.872] [sharedprocess] [info] [storage cleanup]: Starting to clean up storage folders.
+[2021-11-26 12:51:42.872] [sharedprocess] [info] [language pack cache cleanup]: Starting to clean up unused language packs.
+[2021-11-26 14:33:16.239] [sharedprocess] [info] Installing extension: atishay-jain.all-autocomplete
+[2021-11-26 14:33:17.766] [sharedprocess] [info] Downloaded extension: atishay-jain.all-autocomplete /home/dotnet/.config/Code/CachedExtensionVSIXs/atishay-jain.all-autocomplete-0.0.23
+[2021-11-26 14:33:17.817] [sharedprocess] [info] Extracted extension to /home/dotnet/.vscode/extensions/.0b67f14c-ee8f-44c2-a9c8-7b59aedc7746: atishay-jain.all-autocomplete
+[2021-11-26 14:33:17.824] [sharedprocess] [info] Renamed to /home/dotnet/.vscode/extensions/atishay-jain.all-autocomplete-0.0.23
+[2021-11-26 14:33:17.824] [sharedprocess] [info] Extracting completed. atishay-jain.all-autocomplete
+[2021-11-26 14:33:17.829] [sharedprocess] [info] Extension installed successfully: atishay-jain.all-autocomplete

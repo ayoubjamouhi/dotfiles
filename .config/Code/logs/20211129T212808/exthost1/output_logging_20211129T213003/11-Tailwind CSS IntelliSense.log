@@ -1,0 +1,5 @@
+Found Tailwind CSS config file: /var/www/elearning/tailwind.config.js
+Loaded postcss v7.0.23: /var/www/elearning/node_modules/postcss
+Loaded tailwindcss v1.4.6: /var/www/elearning/node_modules/tailwindcss
+Browserslist: caniuse-lite is outdated. Please run:
+npx browserslist@latest --update-db

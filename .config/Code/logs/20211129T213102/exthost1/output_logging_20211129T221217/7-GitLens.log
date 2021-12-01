@@ -1,0 +1,21 @@
+[2021-11-29 21:12:17:753] [/home/dotnet/Code/Dev/rewriter.com] Git Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false rev-parse --show-toplevel • not a git repository (or any parent up to mount point /) • Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set). • 39 ms 
+[2021-11-29 23:28:16:380] /home/dotnet/.vscode/extensions/eamodio.gitlens-11.6.1/dist/webpack:/gitlens/node_modules/@octokit/request/dist-web/index.js:100:15
+HttpError: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com
+[2021-11-29 23:28:16:382] it.getPullRequestForCommit
+Error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com
+[2021-11-29 23:28:18:263] /home/dotnet/.vscode/extensions/eamodio.gitlens-11.6.1/dist/webpack:/gitlens/node_modules/@octokit/request/dist-web/index.js:100:15
+HttpError: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com
+[2021-11-29 23:28:18:264] it.getPullRequestForCommit
+Error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com
+[2021-11-29 23:28:18:814] /home/dotnet/.vscode/extensions/eamodio.gitlens-11.6.1/dist/webpack:/gitlens/node_modules/@octokit/request/dist-web/index.js:100:15
+HttpError: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com
+[2021-11-29 23:28:18:814] it.getPullRequestForCommit
+Error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com
+[2021-11-29 23:28:24:776] /home/dotnet/.vscode/extensions/eamodio.gitlens-11.6.1/dist/webpack:/gitlens/node_modules/@octokit/request/dist-web/index.js:100:15
+HttpError: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com
+[2021-11-29 23:28:24:776] it.getPullRequestForCommit
+Error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com
+[2021-11-29 23:28:25:497] /home/dotnet/.vscode/extensions/eamodio.gitlens-11.6.1/dist/webpack:/gitlens/node_modules/@octokit/request/dist-web/index.js:100:15
+HttpError: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com
+[2021-11-29 23:28:25:497] it.getPullRequestForCommit
+Error: request to https://api.github.com/graphql failed, reason: getaddrinfo ENOTFOUND api.github.com

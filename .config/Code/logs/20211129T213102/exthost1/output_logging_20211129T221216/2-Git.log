@@ -1,0 +1,852 @@
+Validating found git in: git
+Using git 2.31.1 from git
+Opening repository for path='/home/dotnet/Code/Dev/rewriter.com' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any parent up to mount point /)\nStopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).\n"
+}
+> git rev-parse --git-dir
+Open repository: /home/dotnet/Code/Dev/rewriter.com/backend
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git rev-parse --git-dir
+Open repository: /home/dotnet/Code/Dev/rewriter.com/frontend
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+Opening repository for path='/home/dotnet/Code/Dev/rewriter.com' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any parent up to mount point /)\nStopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).\n"
+}
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git config --get commit.template
+> git show --textconv :package.json
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/package.json
+> git cat-file -s 03d45e07f3c9915230750e14142fb8b7c027f142
+> git status -z -u
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git symbolic-ref --short HEAD
+> git check-ignore -v -z --stdin
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :next.config.js
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/next.config.js
+> git cat-file -s 8b61df4e50f8a8aeb8e835afa7b8690aaec0fffe
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :src/index.ts
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/backend/src/index.ts
+> git cat-file -s 539bdcd77bfb90d028557c3223181e0d9768c1d2
+> git check-ignore -v -z --stdin
+> git show --textconv :src/utils/apolloClient.ts
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/utils/apolloClient.ts
+> git cat-file -s baf38daf882a35b3b8588749a0dcb6ec4ac67cb8
+> git show --textconv :next.config.js
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/next.config.js
+> git cat-file -s 8b61df4e50f8a8aeb8e835afa7b8690aaec0fffe
+> git show --textconv :src/utils/apolloClient.ts
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/utils/apolloClient.ts
+> git cat-file -s baf38daf882a35b3b8588749a0dcb6ec4ac67cb8
+> git show --textconv :next.config.js
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/next.config.js
+> git cat-file -s 8b61df4e50f8a8aeb8e835afa7b8690aaec0fffe
+> git show --textconv :src/utils/apolloClient.ts
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/utils/apolloClient.ts
+> git cat-file -s baf38daf882a35b3b8588749a0dcb6ec4ac67cb8
+> git show --textconv :next.config.js
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/next.config.js
+> git cat-file -s 8b61df4e50f8a8aeb8e835afa7b8690aaec0fffe
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/dotnet/Code/Dev/rewriter.com/frontend/next.config.js
+> git show --textconv :.env
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/.env
+> git show --textconv :next.config.js
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/next.config.js
+> git cat-file -s 8b61df4e50f8a8aeb8e835afa7b8690aaec0fffe
+> git show --textconv :src/utils/apolloClient.ts
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/utils/apolloClient.ts
+> git cat-file -s baf38daf882a35b3b8588749a0dcb6ec4ac67cb8
+> git check-ignore -v -z --stdin
+> git show --textconv :next.config.js
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/next.config.js
+> git cat-file -s 8b61df4e50f8a8aeb8e835afa7b8690aaec0fffe
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/utils/apolloClient.ts
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/utils/apolloClient.ts
+> git cat-file -s baf38daf882a35b3b8588749a0dcb6ec4ac67cb8
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/pages/login.tsx
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/pages/login.tsx
+> git cat-file -s 7c20b7ae8e0af758114b2f4774f0a5de18684b85
+> git check-ignore -v -z --stdin
+> git show --textconv :layouts/Login.tsx
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/layouts/Login.tsx
+> git cat-file -s 94051624ac4f27d8a83fe5e020c2b861f222efab
+> git check-ignore -v -z --stdin
+> git show --textconv :src/pages/_app.tsx
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/pages/_app.tsx
+> git cat-file -s 01c92fa46b47443fbfa7184e5823bdb79d61aecb
+> git show --textconv :src/pages/_document.tsx
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/pages/_document.tsx
+> git cat-file -s 1ecaca804db9b4f3035f879afa6f2ecd981b1405
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :layouts/Default.tsx
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/layouts/Default.tsx
+> git cat-file -s 75abd6bc30bffdffa640c9a2398b29c60b67d531
+> git show --textconv :src/components/ProfileDropDown/ProfileDropDown.tsx
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/components/ProfileDropDown/ProfileDropDown.tsx
+> git cat-file -s 213e93fd8e5fc490ab1141c1102fcc1c0b01c005
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/Header/ProfileDropDown.tsx
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/Header/ProfileDropDown.tsx
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/Header/Profile.tsx
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/Header/Profile.tsx
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/Header/Header.tsx
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/Header/Header.tsx
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/components/Header.tsx
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/components/Header.tsx
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/components/LeftNavbar/NavLinks.tsx
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/components/LeftNavbar/NavLinks.tsx
+> git cat-file -s e2094b338d70057c38509f412d62091e854712fa
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :src/components/LeftNavbar/index.tsx
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/components/LeftNavbar/index.tsx
+> git cat-file -s 1d5e8690fd037d08da0b7aca5a09877b30bfeef3
+> git show --textconv :src/components/Header/index.tsx
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/components/Header/index.tsx
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :next.config.js
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/next.config.js
+> git cat-file -s 8b61df4e50f8a8aeb8e835afa7b8690aaec0fffe
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :layouts/Default.tsx
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/layouts/Default.tsx
+> git cat-file -s 75abd6bc30bffdffa640c9a2398b29c60b67d531
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :next.config.js
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/next.config.js
+> git cat-file -s 8b61df4e50f8a8aeb8e835afa7b8690aaec0fffe
+> git show --textconv :layouts/Default.tsx
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/layouts/Default.tsx
+> git cat-file -s 75abd6bc30bffdffa640c9a2398b29c60b67d531
+> git show --textconv :next.config.js
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/next.config.js
+> git cat-file -s 8b61df4e50f8a8aeb8e835afa7b8690aaec0fffe
+> git show --textconv :src/pages/_document.tsx
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/pages/_document.tsx
+> git cat-file -s 1ecaca804db9b4f3035f879afa6f2ecd981b1405
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/pages/_app.tsx
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/pages/_app.tsx
+> git cat-file -s 01c92fa46b47443fbfa7184e5823bdb79d61aecb
+> git show --textconv :src/pages/_document.tsx
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/pages/_document.tsx
+> git cat-file -s 1ecaca804db9b4f3035f879afa6f2ecd981b1405
+> git show --textconv :src/pages/_app.tsx
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/pages/_app.tsx
+> git cat-file -s 01c92fa46b47443fbfa7184e5823bdb79d61aecb
+> git show --textconv :src/pages/_document.tsx
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/pages/_document.tsx
+> git cat-file -s 1ecaca804db9b4f3035f879afa6f2ecd981b1405
+> git show --textconv :layouts/Default.tsx
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/layouts/Default.tsx
+> git cat-file -s 75abd6bc30bffdffa640c9a2398b29c60b67d531
+> git show --textconv :src/pages/_document.tsx
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/pages/_document.tsx
+> git cat-file -s 1ecaca804db9b4f3035f879afa6f2ecd981b1405
+> git show --textconv :layouts/Default.tsx
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/layouts/Default.tsx
+> git cat-file -s 75abd6bc30bffdffa640c9a2398b29c60b67d531
+> git show --textconv :src/pages/_document.tsx
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/pages/_document.tsx
+> git cat-file -s 1ecaca804db9b4f3035f879afa6f2ecd981b1405
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/components/Footer.tsx
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/components/Footer.tsx
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/components/Header/NavLinks.tsx
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/components/Header/NavLinks.tsx
+> git show --textconv :src/components/Footer.tsx
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/components/Footer.tsx
+> git show --textconv :src/components/Header/NavLinks.tsx
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/components/Header/NavLinks.tsx
+> git show --textconv :src/components/Footer.tsx
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/components/Footer.tsx
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/pages/_document.tsx
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/pages/_document.tsx
+> git cat-file -s 1ecaca804db9b4f3035f879afa6f2ecd981b1405
+> git show --textconv :src/components/Header.tsx
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/components/Header.tsx
+> git show --textconv :src/components/ProfileDropDown.tsx
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/components/ProfileDropDown.tsx
+> git check-ignore -v -z --stdin
+> git show --textconv :src/pages/_document.tsx
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/pages/_document.tsx
+> git cat-file -s 1ecaca804db9b4f3035f879afa6f2ecd981b1405
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%B -z -n21 -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/pages/_document.tsx
+> git check-ignore -v -z --stdin
+> git show --textconv :src/components/Footer.tsx
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/components/Footer.tsx
+> git show --textconv :src/pages/_document.tsx
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/pages/_document.tsx
+> git cat-file -s 1ecaca804db9b4f3035f879afa6f2ecd981b1405
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :layouts/Default.tsx
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/layouts/Default.tsx
+> git cat-file -s 75abd6bc30bffdffa640c9a2398b29c60b67d531
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/components/Header/index.tsx
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/components/Header/index.tsx
+> git show --textconv :src/components/Header/NavLinks.tsx
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/components/Header/NavLinks.tsx
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/components/Header/NavLinks.tsx
+> git show --textconv :src/components/Header/NavLinks.tsx
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+Opening repository for path='/home/dotnet/Code/Dev/rewriter.com' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any parent up to mount point /)\nStopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).\n"
+}
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/components/Header/NavLinks.tsx
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/components/Header/NavLinks.tsx
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/components/Header/NavLinks.tsx
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/components/Header/NavLinks.tsx
+> git show --textconv :src/components/Header/index.tsx
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/components/Header/index.tsx
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/components/Header/NavLinks.tsx
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/components/Header/NavLinks.tsx
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/components/Header/index.tsx
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/components/Header/index.tsx
+Opening repository for path='/home/dotnet/Code/Dev/rewriter.com' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any parent up to mount point /)\nStopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).\n"
+}
+> git show --textconv :src/components/Header/index.tsx
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/components/Header/index.tsx
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git show --textconv :src/components/Header/index.tsx
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/components/Header/index.tsx
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+Opening repository for path='/home/dotnet/Code/Dev/rewriter.com' failed; ex=Failed to execute git {
+  "exitCode": 128,
+  "gitErrorCode": "NotAGitRepository",
+  "gitCommand": "rev-parse",
+  "stdout": "",
+  "stderr": "fatal: not a git repository (or any parent up to mount point /)\nStopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).\n"
+}
+> git show --textconv :src/components/Header/index.tsx
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/components/Header/index.tsx
+> git show --textconv :src/pages/_document.tsx
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/pages/_document.tsx
+> git cat-file -s 1ecaca804db9b4f3035f879afa6f2ecd981b1405
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/pages/_app.tsx
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/pages/_app.tsx
+> git cat-file -s 01c92fa46b47443fbfa7184e5823bdb79d61aecb
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/pages/_error.tsx
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/pages/_error.tsx
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/pages/_document.tsx
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/pages/_document.tsx
+> git cat-file -s 1ecaca804db9b4f3035f879afa6f2ecd981b1405
+> git show --textconv :src/pages/_error.tsx
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/pages/_error.tsx
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git check-ignore -v -z --stdin
+> git show --textconv :src/store/actions.ts
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/store/actions.ts
+> git cat-file -s a4d719bb35381d03968969d81a1938c049f79799
+> git show --textconv :src/store/reducers.ts
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/store/reducers.ts
+> git cat-file -s 7c37279859e195a8bc80ddc614044325139049c0
+> git check-ignore -v -z --stdin
+> git check-ignore -v -z --stdin
+> git show --textconv :src/store/Reseller/actions.ts
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/store/Reseller/actions.ts
+> git cat-file -s a4e431fc70ae613d64dfc55f5ea0b72be7a57e34
+> git show --textconv :src/store/Reseller/reducer.ts
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/store/Reseller/reducer.ts
+> git cat-file -s 98a7d68374a67615d0bd3bef954d2a3723f3e0c9
+> git show --textconv :src/store/Login/actions.ts
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/store/Login/actions.ts
+> git cat-file -s ae421b1f2aabc460bbe037534e88e7357023674b
+> git show --textconv :src/store/Login/reducer.ts
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/store/Login/reducer.ts
+> git cat-file -s 1b0d411be230505a1d504a582a3d2b9fc9d3758e
+> git check-ignore -v -z --stdin
+> git show --textconv :src/styles/globals.css
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/styles/globals.css
+> git cat-file -s f6f104811e45f4b4119b17be8e1c29d045b089f3
+> git show --textconv :src/styles/variables.css
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/styles/variables.css
+> git check-ignore -v -z --stdin
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/styles/Home.module.css
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/styles/Home.module.css
+> git cat-file -s 35454bb748190db33caf692596ddf748681785cd
+> git show --textconv :src/styles/globals.css
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/styles/globals.css
+> git cat-file -s f6f104811e45f4b4119b17be8e1c29d045b089f3
+> git show --textconv :src/styles/variables.css
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/styles/variables.css
+> git show --textconv :src/styles/globals.css
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/styles/globals.css
+> git cat-file -s f6f104811e45f4b4119b17be8e1c29d045b089f3
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/styles/variables.css
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/styles/variables.css
+> git show --textconv :src/styles/globals.css
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/styles/globals.css
+> git cat-file -s f6f104811e45f4b4119b17be8e1c29d045b089f3
+> git show --textconv :src/styles/variables.css
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/styles/variables.css
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/styles/globals.css
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/styles/globals.css
+> git cat-file -s f6f104811e45f4b4119b17be8e1c29d045b089f3
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/styles/variables.css
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/styles/variables.css
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/pages/_app.tsx
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/pages/_app.tsx
+> git cat-file -s 01c92fa46b47443fbfa7184e5823bdb79d61aecb
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git show --textconv :src/styles/globals.css
+> git ls-files --stage -- /home/dotnet/Code/Dev/rewriter.com/frontend/src/styles/globals.css
+> git cat-file -s f6f104811e45f4b4119b17be8e1c29d045b089f3
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
+> git status -z -u
+> git symbolic-ref --short HEAD
+> git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track) refs/heads/whitelabel refs/remotes/whitelabel
+> git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname)
+> git remote --verbose
+> git config --get commit.template
