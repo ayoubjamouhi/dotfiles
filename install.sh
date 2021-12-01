@@ -1,0 +1,9 @@
+picom
+polybar
+alactritty
+bspwm
+sx
+zshrx
+ohmyzsh
+zsh-autosuggestions
+ripgrep
