@@ -1,8 +1,0 @@
-[Info  - 9:13:51 AM] Initialising intelephense 1.7.1
-[Info  - 9:13:51 AM] Reading state from /home/dotnet/.config/Code/User/workspaceStorage/3d740f17f4364a78968bd16d5e08f550/bmewburn.vscode-intelephense-client/7acf953b.
-[Info  - 9:13:52 AM] Initialised in 757 ms
-[Warn  - 9:13:52 AM] file:///var/www/soft1.myvirtualtours.io/vendor/fzaninotto/faker/src/Faker/Provider/nl_BE/Text.php is over the maximum file size of 1000000 bytes.
-[Info  - 9:13:52 AM] Indexing started.
-[Info  - 9:13:53 AM] Indexing ended. 29 files indexed in 0s.
-[Info  - 9:13:53 AM] Writing state to /home/dotnet/.config/Code/User/workspaceStorage/3d740f17f4364a78968bd16d5e08f550/bmewburn.vscode-intelephense-client/7acf953b.
-[Info  - 9:13:53 AM] Wrote state in 0.7s.

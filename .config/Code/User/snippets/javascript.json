@@ -1,9 +1,0 @@
-{
-	"clog": {
-		"prefix": "clog",
-		"body": [
-			"console.log($1);"
-		],
-		"description": "clog"
-	}
-}

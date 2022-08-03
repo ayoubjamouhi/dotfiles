@@ -1,4 +1,0 @@
-12/1/2021, 9:01:59 AM [3] (pid: 3001) graphql-language-service-usage-logs: {"type":"usage","messageType":"initialize"}
-12/1/2021, 9:01:59 AM [1] (pid: 3001) graphql-language-service-usage-logs: ConfigNotFoundError2: GraphQL Config file is not available in the provided config directory: /home/dotnet/Code/Dev/rewriter.com
-Please check the config directory.
-[Info  - 9:11:25 AM] The graphql server has stopped running

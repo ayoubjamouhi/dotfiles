@@ -11,3 +11,4 @@ nvim
 plug-install
 powerlevel10k
 libapache
+a2enmod rewrite

@@ -1,3 +1,0 @@
-[2021-11-30 13:29:39:186] Warning(/usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false show --textconv b848d91bd11ab20f8fbe3bbefb6ccf04eac47b6b:./resources/js/src/views/pages/Login.vue --): 
-[2021-11-30 13:29:39:187] Warning(/usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false show --textconv f19291d39d4825ffc287c7bbfa47c44445a7d0cb:./resources/js/src/views/pages/Login.vue --): 
-[2021-11-30 16:28:30:708] [/var/www/soft1.myvirtualtours.io] Git Command failed: /usr/bin/git -c core.quotepath=false -c color.ui=false -c log.showSignature=false log --format=%x3cr%x3e%x20%H -n3 -m -L 4935,4935:resources/js/src/views/pages/creator.vue • file resources/js/src/views/pages/creator.vue has only 4934 lines • 26 ms 

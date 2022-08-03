@@ -8,7 +8,7 @@ set guicursor+=i:ver100-iCursor
 set guicursor+=n-v-c:blinkon0
 set guicursor+=i:blinkwait10
 
-set relativenumber
+"set relativenumber
 set smarttab
 set cindent
 set tabstop=2

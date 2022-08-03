@@ -1,5 +1,0 @@
-[Info  - 11:49:40 PM] Angular language server process ID: 63153
-[Info  - 11:49:40 PM] Using typescript/lib/tsserverlibrary v4.4.3 from /home/dotnet/.vscode/extensions/angular.ng-template-13.0.0/node_modules/typescript/lib/tsserverlibrary.js
-[Info  - 11:49:40 PM] Using @angular/language-service v13.0.0 from /home/dotnet/.vscode/extensions/angular.ng-template-13.0.0/node_modules/@angular/language-service/index.js
-[Info  - 11:49:40 PM] Logging is turned off. To enable, run command 'Open Angular server log'.
-[Error - 1:26:37 AM] No config file for /home/dotnet/Code/Dev/rewriter.com/frontend/src/store/reducers.ts

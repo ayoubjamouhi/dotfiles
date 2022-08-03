@@ -11,9 +11,12 @@ super + alt + t
 #Firefox
 super + c
 	google-chrome
+super + v
+  code
 #Screen record
-super + v 
+super +  b
   org.gnome.Nautilus
+
 super + shift + c
     killall ffmpeg
 #Nautilus

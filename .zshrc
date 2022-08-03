@@ -86,6 +86,7 @@ source $ZSH/oh-my-zsh.sh
 
 # export MANPATH="/usr/local/man:$MANPATH"
 export PATH=/opt/firefox/firefox:$PATH
+export PATH=/usr/pgsql-12/bin:$PATH
 # You may need to manually set your language environment
 # export LANG=en_US.UTF-8
 
@@ -128,6 +129,10 @@ alias rgprisma="cd /var/www/readingarden/readingardeen-backend && tmux new -s rg
 alias elearning="cd /var/www/elearning && tmux new -s elearning "
 alias rwfront="cd ~/Code/Dev/rewriter.com/frontend && tmux new -s rewriter-frontend"
 alias rwbackend="cd ~/Code/Dev/rewriter.com/backend && tmux new -s rewriter-backend"
-
+export ANDROID_HOME=$HOME/Android/Sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

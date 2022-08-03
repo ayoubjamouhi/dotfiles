@@ -1,6 +1,0 @@
-[2021-11-29 20:32:46.240] [sharedprocess] [info] Deleted from disk graphql.vscode-graphql /home/dotnet/.vscode/extensions/graphql.vscode-graphql-0.3.23
-[2021-11-29 20:32:54.671] [sharedprocess] [info] [logs cleanup]: Starting to clean up old logs.
-[2021-11-29 20:32:54.673] [sharedprocess] [info] [logs cleanup]: Removing log folders '20211117T021923'
-[2021-11-29 20:33:14.677] [sharedprocess] [info] [code cache cleanup]: Starting to clean up old code cache folders.
-[2021-11-29 20:33:14.679] [sharedprocess] [info] [storage cleanup]: Starting to clean up storage folders.
-[2021-11-29 20:33:24.672] [sharedprocess] [info] [language pack cache cleanup]: Starting to clean up unused language packs.
