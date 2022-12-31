@@ -1,5 +1,7 @@
-sudo dnf install picom polybar bspwm sxhkd alacritty rofi nodejs brightnessctl pulseaudio zsh curl stow ripgrep--skip-broken
-
+# install require
+sudo dnf install picom polybar bspwm sxhkd alacritty rofi nodejs brightnessctl pulseaudio zsh curl stow ripgrep chsh --skip-broken
+# set time
+sudo ln -s /usr/share/zoneinfo/Africa/Casablanca /etc/localtime
 # oh my zsh
 if [ ! -d ~/.oh-my-zsh ]; then
     echo "instaling oh my zsh"
@@ -11,6 +13,8 @@ if [ ! -d ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions ]; then
     echo "installing auto suggestion"
     git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 fi;
+
+ chsh -s $(which zsh)
 
 # vim plug
 if [ ! -d "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim ]; then
