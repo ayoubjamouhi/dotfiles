@@ -3,7 +3,7 @@ polybar -> dnf install
 alactritty -> install from .rpm
 bspwm -> dnf install
 sxhkd -> dnf onstall
-zshrc
+zsh
 ohmyzsh
 zsh-autosuggestions
 ripgrep -> dnf install
