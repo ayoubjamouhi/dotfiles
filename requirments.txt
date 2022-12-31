@@ -1,26 +1,27 @@
-picom -> dnf install
-polybar -> dnf install
-alactritty -> install from .rpm
-bspwm -> dnf install
-sxhkd -> dnf onstall
-zsh
-ohmyzsh
-zsh-autosuggestions
-ripgrep -> dnf install
-nvim
-plug-install
-powerlevel10k
+picom -> dnf install -> install.sh
+polybar -> dnf install -> install.sh
+alactritty -> install from .rpm -> install.sh
+bspwm -> dnf install -> install.sh
+sxhkd -> dnf onstall -> install.sh
+zsh -> install.sh
+ohmyzsh -> install.sh
+zsh-autosuggestions -> install.sh
+ripgrep -> dnf install -> install.sh
+nvim -> install.sh
+vim-plug -> install.sh
+powerlevel10k -> git clone -> install.sh
 libapache
 a2enmod rewrite
-rofi -> dnf install
-pulseaudio -> dnf install
+rofi -> dnf install -> install.sh
+pulseaudio -> dnf install -> install.sh
 vlc
-nodejs
+nodejs -> dnf install -> install.sh
 composer
 php
 nginx
 operator mono
 vscode
-JetBreains MOno font
+JetBreains Mono font
 pulseaudio
 brightnessctl
+fzf
