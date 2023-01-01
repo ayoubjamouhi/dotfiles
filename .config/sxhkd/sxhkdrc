@@ -21,7 +21,7 @@ super + shift + c
     killall ffmpeg
 #Nautilus
 super + p
-	pcmanfm
+	dolphin
 #Brightness and temperature
 alt + 1
 	$HOME/stuff/scripts/brightness.sh - DisplayPort-0 0.1 1.0
