@@ -1,5 +1,5 @@
 # install require
-sudo dnf install picom polybar bspwm sxhkd alacritty rofi nodejs brightnessctl pulseaudio zsh curl stow ripgrep chsh --skip-broken
+sudo dnf install picom polybar bspwm sxhkd alacritty rofi nodejs brightnessctl pulseaudio zsh curl stow ripgrep chsh python3-pip xprop --skip-broken
 # set time
 sudo ln -s /usr/share/zoneinfo/Africa/Casablanca /etc/localtime
 # oh my zsh
