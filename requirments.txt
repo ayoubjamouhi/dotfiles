@@ -25,3 +25,4 @@ JetBreains Mono font
 pulseaudio
 brightnessctl
 fzf
+awscli

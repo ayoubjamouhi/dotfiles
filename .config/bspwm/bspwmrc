@@ -35,6 +35,8 @@ bspc config pointer_follows_monitor true
 bspc config pointer_follows_focus true
 bspc config borderless_monocle   true
 bspc config gapless_monocle      true
+bspc config pointer_motion_interval 40
+
 # Start Rules
 # Cloring
 bspc config normal_border_color "#fff"
