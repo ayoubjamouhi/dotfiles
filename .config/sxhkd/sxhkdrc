@@ -14,20 +14,17 @@ super + c
 super + v
   code
 #Screen record
-super +  b
-  org.gnome.Nautilus
-
+super +  e
+  dolphin
+#kill ffmpek
 super + shift + c
     killall ffmpeg
-#Nautilus
-super + p
-	dolphin
 #Brightness and temperature
 alt + 1
 	$HOME/stuff/scripts/brightness.sh - DisplayPort-0 0.1 1.0
 alt + 2
 	$HOME/stuff/scripts/brightness.sh + DisplayPort-0 0.1 1.0
-alt + 3 
+alt + 3
 	$HOME/stuff/scripts/brightness.sh - DisplayPort-0 0.1 --temp
 alt + 4
 	$HOME/stuff/scripts/brightness.sh + DisplayPort-0 0.1 --temp
