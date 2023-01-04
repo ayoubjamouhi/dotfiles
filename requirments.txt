@@ -28,3 +28,5 @@ fzf
 erlang for rabbitmq
 wmname
 xrandr
+fontawesome-fonts
+xrdp
