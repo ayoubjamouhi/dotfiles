@@ -25,6 +25,7 @@ JetBreains Mono font
 pulseaudio
 brightnessctl
 fzf
+awscli
 erlang for rabbitmq
 wmname
 xrandr

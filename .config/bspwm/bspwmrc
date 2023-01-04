@@ -22,7 +22,7 @@ if [[ $(xrandr --query | grep 'HDMI-1 connected') ]]; then
   bspc monitor HDMI-1 -d 1 2 3
   bspc monitor eDP-1 -d 4 5 6
 else
-  bspc monitor -d 1 2 3 4 5 6
+  bspc monitor -d 1 2 3 4 5 6 7 8 9
 fi
 # End Monitors
 # Other stuff
@@ -45,6 +45,8 @@ bspc config active_border_color "#fff"
 
 bspc rule -a Google-chrome desktop='^1'
 bspc rule -a Firefox-Developer-Edition desktop='^1'
+bspc rule -a Terminator desktop='^2'
+bspc rule -a Alacritty desktop='^3'
 bspc rule -a jetbrains-phpstorm='^2'
 bspc rule -a Code desktop='^2'
 bspc rule -a VSCodium desktop='^2'
@@ -61,4 +63,5 @@ bspc rule -a discord desktop='^4'
 bspc rule -a "GitHub Desktop" desktop='^4'
 bspc rule -a telegram desktop='^5'
 bspc rule -a vlc desktop='^5'
+bspc rule -a "MongoDB Compass" desktop='^5'
 
