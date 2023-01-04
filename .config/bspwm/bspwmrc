@@ -9,9 +9,9 @@ pgrep -x sxhkd > /dev/null || sxhkd &
 picom -f &
 feh --bg-fill --randomize $HOME/Wallpapers/* &
 export _JAVA_AWT_WM_NONREPARENTING=1
-wmname LG3D 
+wmname LG3D
 $HOME/.config/polybar/launch.sh &
-# Start 
+# Start
 setxkbmap -layout us,ar -option grp:alt_shift_toggle
 setxkbmap -option 'grp:alt_shift_toggle' -layout us,ar -variant ,qwerty
 # Workspaces
@@ -61,4 +61,5 @@ bspc rule -a discord desktop='^4'
 bspc rule -a "GitHub Desktop" desktop='^4'
 bspc rule -a telegram desktop='^5'
 bspc rule -a vlc desktop='^5'
+bspc rule -a "MongoDB Compass" desktop='^5'
 
