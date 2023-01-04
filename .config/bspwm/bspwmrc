@@ -64,4 +64,3 @@ bspc rule -a "GitHub Desktop" desktop='^4'
 bspc rule -a telegram desktop='^5'
 bspc rule -a vlc desktop='^5'
 bspc rule -a "MongoDB Compass" desktop='^5'
-

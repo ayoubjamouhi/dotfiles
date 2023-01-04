@@ -31,3 +31,4 @@ wmname
 xrandr
 fontawesome-fonts
 xrdp
+docker-compose

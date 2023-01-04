@@ -1,5 +1,12 @@
 # install require
-sudo dnf install picom polybar bspwm sxhkd alacritty rofi nodejs brightnessctl pulseaudio zsh curl stow ripgrep chsh python3-pip xprop htop neovim fontawesome-fonts --skip-broken
+sudo dnf install picom polybar bspwm sxhkd alacritty rofi nodejs brightnessctl pulseaudio zsh curl stow ripgrep chsh python3-pip xprop htop vim neovim fontawesome-fonts feh woeusb dolphin --skip-broken
+# install redis
+sudo dnf -y install redis --skip-broken
+# install docker
+sudo dnf install dnf-plugins-core -y
+sudo dnf config-manager --add-repo https://download.docker.com/linux/fedora/docker-ce.repo
+sudo dnf install docker-ce docker-ce-cli containerd.io
+
 
 # set time
 sudo ln -s /usr/share/zoneinfo/Africa/Casablanca /etc/localtime
