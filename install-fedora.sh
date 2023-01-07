@@ -1,5 +1,16 @@
 # install require
-sudo dnf install picom polybar bspwm sxhkd alacritty rofi nodejs brightnessctl pulseaudio zsh curl stow ripgrep chsh python3-pip xprop htop vim neovim fontawesome-fonts feh woeusb dolphin --skip-broken
+sudo dnf install picom polybar bspwm sxhkd alacritty rofi nodejs brightnessctl --skip-broken
+sudo dnf pulseaudio zsh curl stow ripgrep chsh python3-pip xprop htop vim neovim --skip-broken
+sudo dnf fontawesome-fonts feh woeusb dolphin shutter acpi --skip-broken
+
+# install github
+sudo rpm --import https://packagecloud.io/shiftkey/desktop/gpgkey
+sudo sh -c 'echo -e "[shiftkey]\nname=GitHub Desktop\nbaseurl=https://packagecloud.io/shiftkey/desktop/el/7/\$basearch\nenabled=1\ngpgcheck=0\nrepo_gpgcheck=1\ngpgkey=https://packagecloud.io/shiftkey/desktop/gpgkey" > /etc/yum.repos.d/shiftkey-desktop.repo'
+sudo dnf install github-desktop #sudo yum install github-desktop
+
+# install mongo
+sudo dnf install mongodb-org-server mongodb-org-shell mongodb-database-tools mongodb-org-mongos mongodb-mongosh
+
 # install redis
 sudo dnf -y install redis --skip-broken
 # install docker

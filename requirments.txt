@@ -32,3 +32,4 @@ xrandr
 fontawesome-fonts
 xrdp
 docker-compose
+lxpolkit

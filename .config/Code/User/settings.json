@@ -13,10 +13,6 @@
   "editor.matchBrackets": "always",
   // Changes the multi cursor mouse binding
   //"editor.multiCursorModifier": "ctrlCmd",
-  "files.associations": {
-    ".php_cs": "php",
-    ".php_cs.dist": "php"
-  },
   // The Cursive font is operator Mono, it's $200 and you need to buy it to get the cursive
   "editor.lineHeight": 23,
   "editor.letterSpacing": 0.5,
@@ -28,9 +24,6 @@
   "php.validate.executablePath": "/usr/bin/php",
   "php.validate.enable": true,
   "php.validate.run": "onType",
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
-  },
   "window.title": "${folderName}${separator}${activeEditorMedium}",
   "workbench.iconTheme": "eq-material-theme-icons-darker",
   "diffEditor.ignoreTrimWhitespace": false,
@@ -44,16 +37,9 @@
   //   "editor.defaultFormatter": "vscode.typescript-language-features"
   // },true
   "editor.formatOnSave": false,
-  "[javascriptreact]": {
-    "editor.formatOnSave": false,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescriptreact]": {
-    "editor.formatOnSave": false,
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
   // Optional BUT IMPORTANT: If you have the prettier extension enabled for other languages like CSS and HTML, turn it off for JS since we are doing it through Eslint already
   "editor.maxTokenizationLineLength": 40000,
+  "editor.bracketPairColorization.enabled": true,
   "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
   "php-cs-fixer.lastDownload": 1655983883796,
   // These are all my auto-save configs
@@ -63,21 +49,49 @@
   // Optional BUT IMPORTANT: If you have the prettier extension enabled for other languages like CSS and HTML, turn it off for JS since we are doing it through Eslint already
   "editor.lineNumbers": "relative",
   "git.enableSmartCommit": true,
-  "vim.insertModeKeyBindings": [
-    {
-      "before": ["j", "j"],
-      "after": ["<Esc>"]
-    }
-  ],
-  "[php]": {
-    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
-  },
   "php-cs-fixer.rules": "@PSR12",
   "editor.suggestSelection": "first",
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "gitlens.hovers.currentLine.over": "line",
   "workbench.editor.showTabs": false,
   "git.confirmSync": false,
+  "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
+  "window.menuBarVisibility": "hidden",
+  "files.autoSave": "onFocusChange",
+  "editor.largeFileOptimizations": false,
+  "vetur.experimental.templateInterpolationService": true,
+  "bracketPairColorizer.depreciation-notice": false,
+  "editor.guides.indentation": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "extensions.ignoreRecommendations": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "files.associations": {
+    ".php_cs": "php",
+    ".php_cs.dist": "php"
+  },
+  "[javascriptreact]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    },
+    {
+      "before": ["j", "k"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "[php]": {
+    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+  },
   "workbench.colorCustomizations": {
     "activityBarBadge.background": "#ffc600",
     "editorCursor.foreground": "#ffc600",
@@ -90,18 +104,12 @@
     "tab.activeBorder": "#ffc600",
     "statusBar.border": "#ffc600"
   },
-  "vscode-neovim.neovimExecutablePaths.linux": "/usr/bin/nvim",
   "[typescript]": {
     "editor.defaultFormatter": "vscode.typescript-language-features"
   },
-  "editor.bracketPairColorization.enabled": true,
   "[html]": {
     "editor.defaultFormatter": "vscode.html-language-features"
   },
-  "vs-kubernetes": {
-    "vscode-kubernetes.helm-path.linux": "/home/dotnet/.vs-kubernetes/tools/helm/linux-amd64/helm"
-  },
-  "window.menuBarVisibility": "hidden",
   "[css]": {
     "editor.defaultFormatter": "HookyQR.beautify"
   },
@@ -111,23 +119,21 @@
   "[yaml]": {
     "editor.defaultFormatter": "redhat.vscode-yaml"
   },
-  "extensions.ignoreRecommendations": true,
   "[vue]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "javascript.updateImportsOnFileMove.enabled": "always",
   "[json]": {
     "editor.defaultFormatter": "HookyQR.beautify"
   },
   "[jsonc]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "editor.largeFileOptimizations": false,
-  "vetur.experimental.templateInterpolationService": true,
-  "bracketPairColorizer.depreciation-notice": false,
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "files.autoSave": "onFocusChange",
-  "editor.guides.indentation": false
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "svelte"
+  ]
 }

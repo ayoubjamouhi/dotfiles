@@ -75,6 +75,6 @@ super + alt + shift + {h,j,k,l}
 	#bspc node -v {-20 0,0 20,0 -20,20 0}
 
 XF86AudioRaiseVolume
-    amixer -D pulse sset Master 5%- unmute
+    amixer -D pulse sset Master 5s- unmute
 XF86AudioLowerVolume
     amixer -D pulse sset Master 5%+ unmute
