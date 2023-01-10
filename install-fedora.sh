@@ -1,7 +1,7 @@
 # install require
 sudo dnf install picom polybar bspwm sxhkd alacritty rofi nodejs brightnessctl --skip-broken
 sudo dnf pulseaudio zsh curl stow ripgrep chsh python3-pip xprop htop vim neovim --skip-broken
-sudo dnf fontawesome-fonts feh woeusb dolphin shutter acpi --skip-broken
+sudo dnf fontawesome-fonts feh woeusb dolphin shutter acpi yarnpkg --skip-broken
 
 # install github
 sudo rpm --import https://packagecloud.io/shiftkey/desktop/gpgkey
@@ -33,7 +33,9 @@ if [ ! -d ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions ]; then
     git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 fi;
 
- chsh -s $(which zsh)
+# run as default
+sudo chsh -s /bin/zsh $USER
+
 
 # vim plug
 if [ ! -d "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim ]; then

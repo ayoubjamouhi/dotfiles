@@ -33,3 +33,4 @@ fontawesome-fonts
 xrdp
 docker-compose
 lxpolkit
+teamviewer
