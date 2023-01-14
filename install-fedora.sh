@@ -1,7 +1,9 @@
 # install require
 sudo dnf install picom polybar bspwm sxhkd alacritty rofi nodejs brightnessctl --skip-broken
 sudo dnf pulseaudio zsh curl stow ripgrep chsh python3-pip xprop htop vim neovim --skip-broken
-sudo dnf fontawesome-fonts feh woeusb dolphin shutter acpi yarnpkg --skip-broken
+sudo dnf fontawesome-fonts feh woeusb dolphin shutter acpi yarnpkg unrar --skip-broken
+# for screenshot
+sudo dnf install scrot
 
 # install github
 sudo rpm --import https://packagecloud.io/shiftkey/desktop/gpgkey

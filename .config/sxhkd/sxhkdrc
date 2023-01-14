@@ -15,7 +15,7 @@ super + v
   code
 #Screen record
 super +  e
-  dolphin
+	org.gnome.Nautilus
 #kill ffmpek
 super + shift + c
     killall ffmpeg
@@ -75,6 +75,31 @@ super + alt + shift + {h,j,k,l}
 	#bspc node -v {-20 0,0 20,0 -20,20 0}
 
 XF86AudioRaiseVolume
-    amixer -D pulse sset Master 5s- unmute
+	pactl set-sink-volume 0 +5%
+
 XF86AudioLowerVolume
-    amixer -D pulse sset Master 5%+ unmute
+	pactl set-sink-volume 0 -5%
+
+XF86AudioMute
+	amixer set Master {mute, unmute}
+
+@Print
+	scrot -s --line mode=edge ~/Pictures/Screenshots/%Y-%m-%d_%H%M%S-$wx$h_screenshot-scrot.png
+
+XF86MonBrightnessUp
+	brightnessctl set 355+
+
+XF86MonBrightnessDown
+	brightnessctl set 355-
+
+# # Rofi screenshot
+super + @Print
+	scrot -d1 & rofi -show drun
+
+# # Fullscreen screenshot
+ctrl + @Print
+	scrot -d1 && mv *.png ~/Pictures/Screenshots/
+
+# # lockscreen
+super + ctrl + x
+	pkill -u dotnet
