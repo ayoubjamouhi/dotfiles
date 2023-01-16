@@ -1,9 +1,9 @@
 # install require
 sudo dnf install picom polybar bspwm sxhkd alacritty rofi nodejs brightnessctl --skip-broken
-sudo dnf pulseaudio zsh curl stow ripgrep chsh python3-pip xprop htop vim neovim --skip-broken
-sudo dnf fontawesome-fonts feh woeusb dolphin shutter acpi yarnpkg unrar --skip-broken
+sudo dnf install pulseaudio zsh curl stow ripgrep chsh python3-pip xprop htop vim neovim --skip-broken
+sudo dnf install fontawesome-fonts feh dolphin shutter acpi yarnpkg unrar --skip-broken
 # for screenshot
-sudo dnf install scrot
+sudo dnf install scrot stow xrandr wmnam lxpolkit qbittorrent
 
 # install github
 sudo rpm --import https://packagecloud.io/shiftkey/desktop/gpgkey
@@ -15,6 +15,7 @@ sudo dnf install mongodb-org-server mongodb-org-shell mongodb-database-tools mon
 
 # install redis
 sudo dnf -y install redis --skip-broken
+
 # install docker
 sudo dnf install dnf-plugins-core -y
 sudo dnf config-manager --add-repo https://download.docker.com/linux/fedora/docker-ce.repo
@@ -23,6 +24,7 @@ sudo dnf install docker-ce docker-ce-cli containerd.io
 
 # set time
 sudo ln -s /usr/share/zoneinfo/Africa/Casablanca /etc/localtime
+
 # oh my zsh
 if [ ! -d ~/.oh-my-zsh ]; then
     echo "instaling oh my zsh"

@@ -135,5 +135,6 @@
     "javascript",
     "javascriptreact",
     "svelte"
-  ]
+  ],
+  "window.zoomLevel": 1
 }
