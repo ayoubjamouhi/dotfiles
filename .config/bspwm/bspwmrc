@@ -14,8 +14,8 @@ wmname LG3D
 $HOME/.config/polybar/launch.sh &
 
 # Start
-setxkbmap -layout us,ar -option grp:alt_shift_toggle
-setxkbmap -option 'grp:alt_shift_toggle' -layout us,ar -variant ,qwerty
+setxkbmap -layout us,fr,ar -option grp:alt_shift_toggle
+setxkbmap -option 'grp:alt_shift_toggle' -layout us,fr,ar -variant ,qwerty
 # Workspaces
 # Monitors
 
@@ -64,16 +64,16 @@ bspc rule -a Gedit desktop='^3'
 
 # 4
 bspc rule -a "org.gnome.Nautilus" desktop='^4'
-bspc rule -a postman desktop='^4'
+bspc rule -a "Postman" desktop='^4'
 bspc rule -a dolphin desktop='^4'
-bspc rule -a "GitHub Desktop" desktop='^4'
+bspc rule -a "MongoDB Compass" desktop='^4'
 
 # 5
 
 bspc rule -a Slack desktop='^5'
 bspc rule -a telegram desktop='^5'
 bspc rule -a vlc desktop='^5'
-bspc rule -a "MongoDB Compass" desktop='^5'
+bspc rule -a "GitHub Desktop" desktop='^5'
 
 # 6
 bspc rule -a discord desktop='^6'

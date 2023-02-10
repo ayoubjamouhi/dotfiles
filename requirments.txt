@@ -34,3 +34,5 @@ xrdp
 docker-compose
 lxpolkit
 teamviewer
+https://www.2daygeek.com/linux-low-full-charging-discharging-battery-notification/
+mongodb fedora https://jira.mongodb.org/browse/SERVER-58870

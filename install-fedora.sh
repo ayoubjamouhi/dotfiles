@@ -3,7 +3,7 @@ sudo dnf install picom polybar bspwm sxhkd alacritty rofi nodejs brightnessctl -
 sudo dnf install pulseaudio zsh curl stow ripgrep chsh python3-pip xprop htop vim neovim --skip-broken
 sudo dnf install fontawesome-fonts feh dolphin shutter acpi yarnpkg unrar --skip-broken
 # for screenshot
-sudo dnf install scrot stow xrandr wmnam lxpolkit qbittorrent
+sudo dnf install scrot stow xrandr wmnam lxpolkit qbittorrent composer mongodb-mongosh
 
 # install github
 sudo rpm --import https://packagecloud.io/shiftkey/desktop/gpgkey
@@ -20,7 +20,7 @@ sudo dnf -y install redis --skip-broken
 sudo dnf install dnf-plugins-core -y
 sudo dnf config-manager --add-repo https://download.docker.com/linux/fedora/docker-ce.repo
 sudo dnf install docker-ce docker-ce-cli containerd.io
-
+sudo usermod -a -G docker $USER
 
 # set time
 sudo ln -s /usr/share/zoneinfo/Africa/Casablanca /etc/localtime

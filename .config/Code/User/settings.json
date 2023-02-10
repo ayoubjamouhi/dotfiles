@@ -25,7 +25,7 @@
   "php.validate.enable": true,
   "php.validate.run": "onType",
   "window.title": "${folderName}${separator}${activeEditorMedium}",
-  "workbench.iconTheme": "eq-material-theme-icons-darker",
+  "workbench.iconTheme": "vscode-icons",
   "diffEditor.ignoreTrimWhitespace": false,
   /*"files.associations": {
           "*.js": "javascriptreact"
@@ -136,5 +136,9 @@
     "javascriptreact",
     "svelte"
   ],
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "[svelte]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "window.zoomLevel": 1
 }
