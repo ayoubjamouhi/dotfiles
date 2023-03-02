@@ -21,7 +21,7 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'arcticicestudio/nord-vim'
 " indent plugin
-Plug 'Yggdroot/indentLine' 
+"Plug 'Yggdroot/indentLine' 
 " tree sitter for knowing programming language syntax to use
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
 Plug 'arnaud-lb/vim-php-namespace'
@@ -100,7 +100,6 @@ command! -nargs=1 CompileAndRunWithFile call TermWrapper(printf('g++ -std=c++17 
 
 autocmd FileType cpp nnoremap <Buffer><F5>fw CAR<CR>
 
-let g:vim_json_syntax_conceal = 0
 
 "source $HOME/.config/nvim/plugins/phpactor.vim
 "source $HOME/.config/nvim/plugins/filetypes.vim
@@ -216,7 +215,8 @@ nnoremap <silent> <space>p  :<C-u>CocListResume<CR>
 nnoremap <silent> <C-p> :GFiles<CR> 
 nnoremap <silent> <C-O> :Buffer<CR> 
 nnoremap <silent> <C-Tab> :Buffer<CR> 
-nnoremap <silent> <C-F> :Rg!<CR> 
+nnoremap <silent> <C-F> :Rg<CR> 
+nnoremap <silent> <C-H> :Ag<CR> 
 nnoremap <silent> <C-g> :GFiles?<CR> 
 nnoremap <silent> <C-O> :Buffer<CR> 
 nnoremap <silent> <C-t> :PhpactorGotoDefinition<CR> 

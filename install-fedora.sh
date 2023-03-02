@@ -3,7 +3,8 @@ sudo dnf install picom polybar bspwm sxhkd alacritty rofi nodejs brightnessctl -
 sudo dnf install pulseaudio zsh curl stow ripgrep chsh python3-pip xprop htop vim neovim --skip-broken
 sudo dnf install fontawesome-fonts feh dolphin shutter acpi yarnpkg unrar --skip-broken
 # for screenshot
-sudo dnf install scrot stow xrandr wmnam lxpolkit qbittorrent composer mongodb-mongosh
+sudo dnf install scrot stow xrandr wmnam lxpolkit qbittorrent composer mongodb-mongosh blueman
+sudo dnf install blueman filezilla
 
 # install github
 sudo rpm --import https://packagecloud.io/shiftkey/desktop/gpgkey

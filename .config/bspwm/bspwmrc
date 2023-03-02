@@ -52,6 +52,7 @@ bspc rule -a Firefox-Developer-Edition desktop='^1'
 # 2
 bspc rule -a Terminator desktop='^2'
 bspc rule -a jetbrains-phpstorm='^2'
+bspc rule -a jetbrains-webstorm='^2'
 bspc rule -a Code desktop='^2'
 bspc rule -a VSCodium desktop='^2'
 bspc rule -a jetbrains-idea desktop='^2'
@@ -61,19 +62,19 @@ bspc rule -a jetbrains-pycharm-ce desktop='^2'
 bspc rule -a Terminator desktop='^3'
 bspc rule -a Alacritty desktop='^3'
 bspc rule -a Gedit desktop='^3'
+bspc rule -a "MongoDB Compass" desktop='^3'
 
 # 4
 bspc rule -a "org.gnome.Nautilus" desktop='^4'
-bspc rule -a "Postman" desktop='^4'
 bspc rule -a dolphin desktop='^4'
-bspc rule -a "MongoDB Compass" desktop='^4'
+bspc rule -a "GitHub Desktop" desktop='^4'
 
 # 5
 
 bspc rule -a Slack desktop='^5'
 bspc rule -a telegram desktop='^5'
 bspc rule -a vlc desktop='^5'
-bspc rule -a "GitHub Desktop" desktop='^5'
+bspc rule -a "Postman" desktop='^5'
 
 # 6
 bspc rule -a discord desktop='^6'
