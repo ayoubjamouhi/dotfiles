@@ -140,8 +140,11 @@
   "[svelte]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "window.zoomLevel": 1,
   "[python]": {
     "editor.formatOnType": true
+  },
+  "window.zoomLevel": 1,
+  "[dockercompose]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-docker"
   }
 }

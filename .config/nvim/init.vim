@@ -21,7 +21,7 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'arcticicestudio/nord-vim'
 " indent plugin
-"Plug 'Yggdroot/indentLine' 
+"Plug 'Yggdroot/indentLine'
 " tree sitter for knowing programming language syntax to use
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}  " We recommend updating the parsers on update
 Plug 'arnaud-lb/vim-php-namespace'
@@ -44,7 +44,7 @@ set guicursor+=i:ver100-iCursor
 set guicursor+=n-v-c:blinkon0
 set guicursor+=i:blinkwait10
 
-"set relativenumber
+set relativenumber
 set smarttab
 set cindent
 set tabstop=2
@@ -67,7 +67,7 @@ if exists('$TMUX')
   let &t_8b = "<Esc>[48;2;%lu;%lu;%lum"
 endif
 
-colorscheme nord
+colorscheme gruvbox
 " if hidden is not set, TextEdit might fail.
 set hidden " Some servers have issues with backup files, see #649 set nobackup set nowritebackup " Better display for messages set cmdheight=2 " You will have bad experience for diagnostic messages when it's default 4000.
 set updatetime=300
@@ -85,7 +85,7 @@ set statusline+=%=
 set statusline+=\ %M
 set statusline+=\ %r
 set statusline+=\ %F
-set statusline+=\ 
+set statusline+=\
 set statusline+=%#CursorLineNr#
 set statusline+=\ %y
 set statusline+=\ %r
@@ -103,17 +103,71 @@ autocmd FileType cpp nnoremap <Buffer><F5>fw CAR<CR>
 
 "source $HOME/.config/nvim/plugins/phpactor.vim
 "source $HOME/.config/nvim/plugins/filetypes.vim
-"source $HOME/.config/nvim/plugins/nerdtree.vim
+" source $HOME/.config/nvim/plugins/nerdtree.vim
+" Start Netd
+nmap <C-m> :NERDTreeToggle<CR>
+vmap ++ <plug>NERDCommenterToggle
+nmap ++ <plug>NERDCommenterToggle
+
+" open NERDTree automatically
+"autocmd StdinReadPre * let s:std_in=1
+"autocmd VimEnter * NERDTree
+let g:NERDTreeGitStatusWithFlags = 1
+"let g:WebDevIconsUnicodeDecorateFolderNodes = 1
+wlet g:NERDTreeGitStatusNodeColorization = 1
+"let g:NERDTreeColorMapCustom = {
+    "\ "Staged"    : "#0ee375",
+    "\ "Modified"  : "#d9bf91",
+    "\ "Renamed"   : "#51C9FC",
+    "\ "Untracked" : "#FCE77C",
+    "\ "Unmerged"  : "#FC51E6",
+    "\ "Dirty"     : "#FFBD61",
+    "\ "Clean"     : "#87939A",
+    "\ "Ignored"   : "#808080"
+    "\ }
+
+
+let g:NERDTreeIgnore = ['^node_modules$', '^vendor$']
+
+" j/k will move virtual lines (lines that wrap)
+noremap <silent> <expr> j (v:count == 0 ? 'gj' : 'j')
+noremap <silent> <expr> k (v:count == 0 ? 'gk' : 'k')
+
+" sync open file with NERDTree
+" " Check if NERDTree is open or active
+"function! IsNERDTreeOpen()
+  "return exists("t:NERDTreeBufName") && (bufwinnr(t:NERDTreeBufName) != -1)
+"endfunction
+
+" Call NERDTreeFind iff NERDTree is active, current window contains a modifiable
+" file, and we're not in vimdiff
+"function! SyncTree()
+  "if &modifiable && IsNERDTreeOpen() && strlen(expand('%')) > 0 && !&diff
+    "NERDTreeFind
+    "wincmd p
+  "endif
+"endfunction
+
+" Highlight currently open buffer in NERDTree
+"autocmd BufEnter * call SyncTree()
+" Use tab for trigger completion with characters ahead and navigate.
+" Use command ':verbose imap <tab>' to make sure tab is not mapped by other plugin.
+inoremap <silent><expr> <TAB>
+      \ pumvisible() ? "\<C-n>" :
+      \ <SID>check_back_space() ? "\<TAB>" :
+      \ coc#refresh()
+"inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
+
 "source $HOME/.config/nvim/plugins/coc.vim
 " coc config
 let g:coc_global_extensions = [
   \ 'coc-snippets',
   \ 'coc-pairs',
   \ 'coc-tsserver',
-  \ 'coc-eslint', 
-  \ 'coc-prettier', 
-  \ 'coc-json', 
-  \ 'coc-vetur', 
+  \ 'coc-eslint',
+  \ 'coc-prettier',
+  \ 'coc-json',
+  \ 'coc-vetur',
   \ ]
 
 " Use <c-space> to trigger completion.
@@ -212,14 +266,14 @@ nnoremap <silent> <space>p  :<C-u>CocListResume<CR>
 "End
 "source $HOME/.config/nvim/plugins/fzf.vim
 " fzf
-nnoremap <silent> <C-p> :GFiles<CR> 
-nnoremap <silent> <C-O> :Buffer<CR> 
-nnoremap <silent> <C-Tab> :Buffer<CR> 
-nnoremap <silent> <C-F> :Rg<CR> 
-nnoremap <silent> <C-H> :Ag<CR> 
-nnoremap <silent> <C-g> :GFiles?<CR> 
-nnoremap <silent> <C-O> :Buffer<CR> 
-nnoremap <silent> <C-t> :PhpactorGotoDefinition<CR> 
+nnoremap <silent> <C-p> :GFiles<CR>
+nnoremap <silent> <C-O> :Buffer<CR>
+nnoremap <silent> <C-Tab> :Buffer<CR>
+nnoremap <silent> <C-F> :Rg<CR>
+nnoremap <silent> <C-H> :Ag<CR>
+nnoremap <silent> <C-g> :GFiles?<CR>
+nnoremap <silent> <C-O> :Buffer<CR>
+nnoremap <silent> <C-t> :PhpactorGotoDefinition<CR>
 "source $HOME/.config/nvim/plugins/easymotion.vim
 "source $HOME/.config/nvim/plugins/prettier.vim
 "
