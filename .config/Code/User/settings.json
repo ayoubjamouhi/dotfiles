@@ -1,7 +1,7 @@
 {
   "editor.fontFamily": "JetBrains Mono, 'Droid Sans Mono', 'monospace', monospace",
   "editor.fontWeight": "300",
-  "editor.fontSize": 15,
+  "editor.fontSize": 13,
   "svelte.plugin.svelte.note-new-transformation": false,
   "editor.cursorBlinking": "expand",
   "explorer.openEditors.visible": 0,
@@ -146,5 +146,6 @@
   "window.zoomLevel": 1,
   "[dockercompose]": {
     "editor.defaultFormatter": "ms-azuretools.vscode-docker"
-  }
+  },
+  "workbench.panel.defaultLocation": "right"
 }
