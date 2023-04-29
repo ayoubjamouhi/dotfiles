@@ -42,4 +42,4 @@ install phpactor
 
 install https://computingforgeeks.com/how-to-install-pgadmin-on-centos-fedora/
 
-sudo vim /etc/sysctl.conf  add vm.swappiness=7
+sudo vim /etc/sysctl.conf  add vm.swappiness=7 // for ram usage

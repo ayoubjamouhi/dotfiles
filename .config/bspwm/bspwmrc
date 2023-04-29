@@ -51,12 +51,12 @@ bspc rule -a Firefox-Developer-Edition desktop='^1'
 
 # 2
 bspc rule -a Terminator desktop='^2'
-bspc rule -a jetbrains-phpstorm='^2'
-bspc rule -a jetbrains-webstorm='^2'
+bspc rule -a "jetbrains-phpstorm"='^2'
+bspc rule -a "jetbrains-webstorm"='^2'
 bspc rule -a Code desktop='^2'
 bspc rule -a VSCodium desktop='^2'
-bspc rule -a jetbrains-idea desktop='^2'
-bspc rule -a jetbrains-pycharm-ce desktop='^2'
+bspc rule -a "jetbrains-idea" desktop='^2'
+bspc rule -a "jetbrains-pycharm-ce" desktop='^2'
 
 # 3
 bspc rule -a Terminator desktop='^3'
