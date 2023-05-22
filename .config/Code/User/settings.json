@@ -143,10 +143,11 @@
   "[python]": {
     "editor.formatOnType": true
   },
-  "window.zoomLevel": 1,
   "[dockercompose]": {
     "editor.defaultFormatter": "ms-azuretools.vscode-docker"
   },
   "workbench.panel.defaultLocation": "right",
-  "boot-java.rewrite.reconcile": true
+  "boot-java.rewrite.reconcile": true,
+  "window.zoomLevel": 1,
+  "typescript.enablePromptUseWorkspaceTsdk": true
 }

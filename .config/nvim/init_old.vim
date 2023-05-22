@@ -152,10 +152,17 @@ noremap <silent> <expr> k (v:count == 0 ? 'gk' : 'k')
 "autocmd BufEnter * call SyncTree()
 " Use tab for trigger completion with characters ahead and navigate.
 " Use command ':verbose imap <tab>' to make sure tab is not mapped by other plugin.
-inoremap <silent><expr> <TAB>
-      \ pumvisible() ? "\<C-n>" :
-      \ <SID>check_back_space() ? "\<TAB>" :
-      \ coc#refresh()
+" inoremap <silent><expr> <TAB>
+"       \ pumvisible() ? "\<C-n>" :
+"       \ <SID>check_back_space() ? "\<TAB>" :
+"       \ coc#refresh()
+inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
+inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
+
+function! s:check_back_space() abort
+  let col = col('.') - 1
+  return !col || getline('.')[col - 1]  =~# '\s'
+endfunction
 "inoremap <expr><S-TAB> pumvisible() ? "\<C-p>" : "\<C-h>"
 
 "source $HOME/.config/nvim/plugins/coc.vim
@@ -266,10 +273,11 @@ nnoremap <silent> <space>p  :<C-u>CocListResume<CR>
 "End
 "source $HOME/.config/nvim/plugins/fzf.vim
 " fzf
-nnoremap <silent> <C-p> :GFiles<CR>
-nnoremap <silent> <C-O> :Buffer<CR>
+nnoremap <silent> <C-p> :GFiles!<CR>
+nnoremap <silent> <C-O> :Buffer!<CR>
 nnoremap <silent> <C-Tab> :Buffer<CR>
-nnoremap <silent> <C-F> :Rg<CR>
+" ! for full screen
+nnoremap <silent> <C-F> :Rg!<CR>
 nnoremap <silent> <C-H> :Ag<CR>
 nnoremap <silent> <C-g> :GFiles?<CR>
 nnoremap <silent> <C-O> :Buffer<CR>

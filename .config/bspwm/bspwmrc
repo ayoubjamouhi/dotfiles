@@ -1,4 +1,6 @@
 #! /bin/sh
+printf "hi"
+echo "hi"
 
 # Autostart
 sxhkd &
@@ -9,8 +11,17 @@ setxkbmap -option caps:escape &
 pgrep -x sxhkd > /dev/null || sxhkd &
 picom -f &
 feh --bg-fill --randomize $HOME/Wallpapers/* &
+# start programms
+google-chrome &
+code &
+alacritty &
+slack &
+dolphin &
+# end start programs
+
 export _JAVA_AWT_WM_NONREPARENTING=1
 wmname LG3D
+
 $HOME/.config/polybar/launch.sh &
 
 # Start
@@ -18,12 +29,17 @@ setxkbmap -layout us,fr,ar -option grp:alt_shift_toggle
 setxkbmap -option 'grp:alt_shift_toggle' -layout us,fr,ar -variant ,qwerty
 # Workspaces
 # Monitors
-
+echo "query"
+echo $(xrandr --query | grep 'HDMI-1 connected')
+echo "end query"
 if [[ $(xrandr --query | grep 'HDMI-1 connected') ]]; then
   xrandr --output HDMI-1 --auto --left-of eDP-1
   bspc monitor HDMI-1 -d 1 2 3
   bspc monitor eDP-1 -d 4 5 6 7 8 9
 else
+  echo "here"
+  xrandr -s 0
+  # xrandr --output eDP-1 --auto
   bspc monitor -d 1 2 3 4 5 6 7 8 9
 fi
 # End Monitors
