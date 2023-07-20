@@ -114,7 +114,9 @@ require('lazy').setup({ -- NOTE: First, some plugins that don't require any conf
     -- See `:help lualine.txt`
     opts = {
         options = {
-            icons_enabled = false,
+            'filename',
+            path =1 ,
+            icons_enabled = true,
             theme = 'onedark',
             component_separators = '|',
             section_separators = ''
@@ -152,7 +154,18 @@ require('lazy').setup({ -- NOTE: First, some plugins that don't require any conf
     'nvim-treesitter/nvim-treesitter',
     dependencies = {'nvim-treesitter/nvim-treesitter-textobjects'},
     build = ":TSUpdate"
-}, -- NOTE: Next Step on Your Neovim Journey: Add/Configure additional "plugins" for kickstart
+},
+{
+    "nvim-tree/nvim-tree.lua",
+    version = "*",
+    dependencies = {
+      "nvim-tree/nvim-web-devicons",
+    },
+    config = function()
+      require("nvim-tree").setup {}
+    end,
+  },
+-- NOTE: Next Step on Your Neovim Journey: Add/Configure additional "plugins" for kickstart
 --       These are some example plugins that I've included in the kickstart repository.
 --       Uncomment any of the lines below to enable them.
 -- require 'kickstart.plugins.autoformat',

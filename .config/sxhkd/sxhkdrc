@@ -10,12 +10,12 @@ super + alt + t
 	tuxi "$(echo "" | dmenu -p 'Ask Tuxi:')" | espeak -s 140
 #Firefox
 super + c
-	google-chrome
+	brave-browser
 super + v
   code
 #Screen record
 super +  e
-	org.gnome.Nautilus
+	nautilus
 #kill ffmpek
 super + shift + c
     killall ffmpeg

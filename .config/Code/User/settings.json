@@ -1,5 +1,5 @@
 {
-  "editor.fontFamily": "JetBrains Mono, 'Droid Sans Mono', 'monospace', monospace",
+  "editor.fontFamily": "IntelOne Mono",
   "editor.fontWeight": "300",
   "editor.fontSize": 13,
   "svelte.plugin.svelte.note-new-transformation": false,
@@ -26,7 +26,6 @@
   "php.validate.run": "onType",
   "window.title": "${folderName}${separator}${activeEditorMedium}",
   "workbench.iconTheme": "vscode-icons",
-  "diffEditor.ignoreTrimWhitespace": false,
   /*"files.associations": {
           "*.js": "javascriptreact"
         }*/
@@ -41,7 +40,7 @@
   "editor.maxTokenizationLineLength": 40000,
   "editor.bracketPairColorization.enabled": true,
   "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
-  "php-cs-fixer.lastDownload": 1655983883796,
+  "php-cs-fixer.lastDownload": 1689690912663,
   // These are all my auto-save configs
   // show eslint icon at bottom toolbar
   "eslint.alwaysShowStatus": true,
@@ -148,6 +147,8 @@
   },
   "workbench.panel.defaultLocation": "right",
   "boot-java.rewrite.reconcile": true,
-  "window.zoomLevel": 1,
-  "typescript.enablePromptUseWorkspaceTsdk": true
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "dart.flutterSdkPath": "/home/dotnet/development/flutter",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "window.zoomLevel": 1
 }
