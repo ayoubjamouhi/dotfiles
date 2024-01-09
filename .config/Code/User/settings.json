@@ -1,7 +1,6 @@
 {
-  "editor.fontFamily": "IntelOne Mono",
+  "editor.fontFamily": "JetBrains Mono",
   "editor.fontWeight": "300",
-  "editor.fontSize": 13,
   "svelte.plugin.svelte.note-new-transformation": false,
   "editor.cursorBlinking": "expand",
   "explorer.openEditors.visible": 0,
@@ -15,7 +14,7 @@
   //"editor.multiCursorModifier": "ctrlCmd",
   // The Cursive font is operator Mono, it's $200 and you need to buy it to get the cursive
   "editor.lineHeight": 23,
-  "editor.letterSpacing": 0.5,
+  "editor.letterSpacing": 0.2,
   "files.trimTrailingWhitespace": true,
   "editor.cursorStyle": "line",
   "editor.cursorWidth": 3,
@@ -40,7 +39,7 @@
   "editor.maxTokenizationLineLength": 40000,
   "editor.bracketPairColorization.enabled": true,
   "php-cs-fixer.executablePath": "${extensionPath}/php-cs-fixer.phar",
-  "php-cs-fixer.lastDownload": 1689690912663,
+  "php-cs-fixer.lastDownload": 1704707710857,
   // These are all my auto-save configs
   // show eslint icon at bottom toolbar
   "eslint.alwaysShowStatus": true,
@@ -89,7 +88,7 @@
     }
   ],
   "[php]": {
-    "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+    "editor.defaultFormatter": "DEVSENSE.phptools-vscode"
   },
   "workbench.colorCustomizations": {
     "activityBarBadge.background": "#ffc600",
@@ -150,5 +149,6 @@
   "typescript.enablePromptUseWorkspaceTsdk": true,
   "dart.flutterSdkPath": "/home/dotnet/development/flutter",
   "diffEditor.ignoreTrimWhitespace": false,
+  "search.useIgnoreFiles": false,
   "window.zoomLevel": 1
 }

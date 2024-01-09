@@ -84,7 +84,8 @@ XF86AudioMute
 	amixer set Master {mute, unmute}
 
 @Print
-	scrot -s --line mode=edge ~/Pictures/Screenshots/%Y-%m-%d_%H%M%S-$wx$h_screenshot-scrot.png
+	scrot -s  --line mode=edge ~/Pictures/Screenshots/%Y-%m-%d_%H%M%S-$wx$h_screenshot-scrot.png -e 'xclip -selection clipboard -t image/png -i $f'
+	#scrot -s --line mode=edge ~/Pictures/Screenshots/%Y-%m-%d_%H%M%S-$wx$h_screenshot-scrot.png
 
 XF86MonBrightnessUp
 	brightnessctl set 355+

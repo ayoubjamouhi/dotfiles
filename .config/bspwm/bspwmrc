@@ -16,7 +16,6 @@ feh --bg-fill --randomize $HOME/Wallpapers/* &
 # code &
 alacritty &
 brave-browser &
-slack &
 org.gnome.Nautilus &
 # dolphin &
 # end start programs
@@ -36,8 +35,8 @@ echo $(xrandr --query | grep 'HDMI-1 connected')
 echo "end query"
 if [[ $(xrandr --query | grep 'HDMI-1 connected') ]]; then
     xrandr --output HDMI-1 --auto --left-of eDP-1
-    bspc monitor HDMI-1 -d 1 2 3 4 5
-    bspc monitor eDP-1 -d 6 7 8 9
+    bspc monitor HDMI-1 -d 1 2 3 4 5 6 7 8 9
+    # bspc monitor eDP-1 -d 6 7 8 9
 else
     echo "here"
     xrandr -s 0
@@ -78,18 +77,16 @@ bspc rule -a "jetbrains-idea" desktop='^2'
 bspc rule -a "jetbrains-pycharm-ce" desktop='^2'
 
 # 3
-bspc rule -a Terminator desktop='^3'
-bspc rule -a Alacritty desktop='^3'
-bspc rule -a Gedit desktop='^3'
-bspc rule -a "MongoDB Compass" desktop='^3'
 
 # 4
-bspc rule -a "org.gnome.Nautilus" desktop='^4'
+bspc rule -a Terminator desktop='^4'
+bspc rule -a Alacritty desktop='^4'
+bspc rule -a "MongoDB Compass" desktop='^3'
 bspc rule -a dolphin desktop='^4'
-bspc rule -a "GitHub Desktop" desktop='^4'
 
 # 5
 
+bspc rule -a "GitHub Desktop" desktop='^5'
 bspc rule -a telegram desktop='^5'
 bspc rule -a vlc desktop='^5'
 bspc rule -a "Postman" desktop='^5'
@@ -98,8 +95,10 @@ bspc rule -a "Docker Desktop" desktop='^5'
 # 6
 bspc rule -a discord desktop='^6'
 bspc rule -a qBittorrent desktop='^6'
+bspc rule -a Slack desktop='^6'
 
 # 7
 #8
 #9
-bspc rule -a Slack desktop='^9'
+bspc rule -a Gedit desktop='^9'
+bspc rule -a "org.gnome.Nautilus" desktop='^9'
